@@ -7,7 +7,7 @@ entries:
   - title: Latest
     post_list:
       limit: 5
-      show_more: true
+      show_more: false
       show_more_text: ...
       show_more_url: archive.html
   - title: Ink
