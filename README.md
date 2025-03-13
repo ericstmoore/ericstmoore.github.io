@@ -1,1 +1,0 @@
-# ericstmoore.github.io
