@@ -1,0 +1,10 @@
+entries:
+ 
+  - title: Latest
+    post_list:
+      limit: 1
+      show_more: false
+      show_more_text: See all...
+      show_more_url: archive.html
+  - title: All
+    url: archive

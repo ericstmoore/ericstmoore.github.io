@@ -1,5 +1,3 @@
 ---
-layout: default
-title: "Happy Jekylling!"
+layout: home
 ---
-testing testing testing
