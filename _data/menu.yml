@@ -1,9 +1,4 @@
 entries:
-
-  - title: About
-    entries:
-      - title: Learning how to make a website!
-      - title: Historical penmanship, mathematics, philosophy
   - title: Latest
     post_list:
       limit: 5
