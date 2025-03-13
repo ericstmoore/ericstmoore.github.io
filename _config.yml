@@ -1,6 +1,7 @@
 url: "https://esmoore.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "esmoore" # the name of your site, e.g. ACME Corp.
+title: "Eric S. Moore" # the name of your site, e.g. ACME Corp.
+description: "Ink and Isomorphism"
 author: Eric S. Moore
 #email: email@email.com
 #description: 
