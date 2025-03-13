@@ -1,10 +1,20 @@
 entries:
- 
+
+  - title: About
+    entries:
+      - title: Learning how to make a website!
+      - title: Historical penmanship, mathematics, philosophy
   - title: Latest
     post_list:
-      limit: 1
-      show_more: false
-      show_more_text: See all...
+      limit: 5
+      show_more: true
+      show_more_text: ...
       show_more_url: archive.html
-  - title: All
-    url: archive
+  - title: Ink
+    url: ink
+  - title: Math
+    url: math
+  - title: Thoughts
+    url: thoughts
+  
+ 

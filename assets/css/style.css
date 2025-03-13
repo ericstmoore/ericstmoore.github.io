@@ -1,0 +1,29 @@
+body {
+  margin: 40px
+  auto;
+  max-width: 640px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: garamond, 'Times New Roman', Times, serif;
+  color: #444;
+  background-color: #f2f2f2;
+  padding: 0
+}
+.post-meta {
+  text-align: right; }
+
+h1, h2, h3 {
+  line-height: 1
+}
+
+blockquote {
+  font-style: italic;
+  padding: 1rem; }
+  blockquote p {
+    margin: 0; }
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+    

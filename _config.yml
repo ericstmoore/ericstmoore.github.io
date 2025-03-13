@@ -1,7 +1,7 @@
 url: "https://esmoore.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Eric S. Moore" # the name of your site, e.g. ACME Corp.
-description: "My New Website"
+description: "Historical Penmanship, Mathematics, Philosophy"
 author: Eric S. Moore
 #email: email@email.com
 #description: 
@@ -9,8 +9,7 @@ author: Eric S. Moore
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: "home" # customize text for homepage link in post layout
+  back_home_text: "<<<" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
   lowercase_titles: false # show titles in lowercase in lists
