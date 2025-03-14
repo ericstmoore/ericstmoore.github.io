@@ -1,15 +1,9 @@
-entries:
-  - title: Latest
+home:
+  - title: Latest Posts
     post_list:
       limit: 5
       show_more: false
-      show_more_text: ...
-      show_more_url: archive.html
-  - title: Ink
-    url: ink
-  - title: Math
-    url: math
-  - title: Thoughts
-    url: thoughts
+ink:
+
   
  

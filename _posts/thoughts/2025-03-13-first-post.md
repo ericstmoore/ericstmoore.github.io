@@ -1,6 +1,7 @@
 ---
 layout: post
 category: thoughts
+subtitle: Subtitle Testing
 ---
 This is my first post and test of the website. Looks all good.
 
