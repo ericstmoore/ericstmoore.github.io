@@ -1,9 +1,17 @@
+:root{
+    --bg: #202020;
+    --fg: #F2F2F2;
+  
+    --link:       rgb(177, 171, 230);
+    --link-visit: var(--fg);
+}
+
 body {
   margin: .5em auto;
   padding: .5em;
   max-width: 35em;
-  color: #444;
-  background-color: #f2f2f2;
+  color: var(--fg);
+  background-color: var(--bg);
   line-height: 1.5;
   font-size: 18px;
   font-family: garamond, 'Times New Roman', Times, serif;
@@ -14,12 +22,16 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: #06e;
+  color: var(--link);
   text-decoration: none;
 }
 
 a:hover, .active-page {
-  color: rgb(85, 26, 139);
+  color: var(--link-visit);
+}
+
+a:hover{
+  text-decoration-line: underline;
 }
 
 blockquote {
