@@ -4,4 +4,4 @@ title: Ink
 which_category: ink
 permalink: /ink/
 ---
-Historical Penmanship, Calligraphy, Fountain Pens:
+Penmanship, Calligraphy, Fountain Pens:
