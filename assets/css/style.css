@@ -10,6 +10,7 @@ body {
   margin: .5em auto;
   padding: .5em;
   max-width: 35em;
+  min-width: 20em;
   color: var(--fg);
   background-color: var(--bg);
   line-height: 1.5;
@@ -33,15 +34,3 @@ a:hover, .active-page {
 a:hover{
   text-decoration-line: underline;
 }
-
-blockquote {
-  font-style: italic;
-  padding: 1rem; }
-  blockquote p {
-    margin: 0; }
-
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto; }
-    
