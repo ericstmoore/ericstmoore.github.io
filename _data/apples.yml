@@ -1,0 +1,116 @@
+- name: Golden Delicious
+  rating: 4.5
+  date: 2025-10-04
+  review: |
+    An average, boring apple. Not much to say for flavor. Slightly sweet, slightly tart, 
+    mostly just mild overall. Tastes like unsweetened applesauce. Similar to the 
+    Fuji but without the disgustingly overpowering, in-your-face sweetness. Thick 
+    skin but not too chewy. The texture of this one was unique. Somewhat mealy 
+    and grainy, but the bite starts snappy. Not one I'd buy unless you like 
+    apples with ignorable flavor.
+
+- name: Fuji
+  rating: 2
+  date: 2025-10-03
+  review: |
+    Bland, mushy, horrible flavor. Tastes like a bomb of white sugar with no depth.
+    FAR too sweet. Aftertaste lingered for nearly an hour. Makes me sad.
+
+- name: Snapdragon
+  rating: 7
+  date: 2025-10-02
+  review: |
+    This is a really good sweet apple, but it still has enough tart flavor to
+    keep me interested. Super crispy and snappy, like the name suggests. No
+    weird aftertaste. Has some pleasant flavors in the back that I can't place.
+
+- name: Sugarbee
+  rating: 3
+  date: 2025-10-01
+  review: |
+    Super bland apart from an off, sickening taste, like honey if you took away
+    all the sweetness. Tastes like a bland, unripe pear. Also has an odd bitter and 
+    chemically flavor. The texture is average, skin is fine. The flesh is oddly yellow. 
+    
+
+- name: Rave
+  rating: 6.5
+  date: 2025-09-29
+  review: |
+    Apple is a bit unusual, but the texture is wonderful. Skin not too chewy, with a good 
+    crisp bite. But the flavor? It's slightly tart, but mostly sweet. Almost too sweet.
+    Weird chemical fruit flavor and bitterness. Tastes somewhat artificial to me. 
+    It could be so good, but that flavor is not pleasant.
+
+- name: McIntosh
+  rating: 5.5
+  date: 2025-09-28
+  review: |
+    Not bad, not great. Average. Too mushy for my taste, and the skin is a 
+    little chewy. Redeemingly, the skin does have a pop when you bite, as if 
+    it were stretched tight over the apple. The flavor is predominantly tart, but
+    it has a decent amount of sweetness. Would be great if it weren't so soft 
+    and the skin weren't so tough. <ul>Elle Lowe, Visiting Critic: "It tasted like 
+    green apple candy, and transported me to Halloween."</ul>
+
+- name: Sweetango
+  rating: 9
+  date: 2025-09-27
+  review: | 
+    An amazing and very flavorful apple. I had two today, and there was a 
+    lot of variation. The first one was punchy and tart with a decent 
+    sweetness. Crispy and very tasty. A new favorite for sure. The second 
+    one was even more crispy, but the sour flavor was almost completely gone and 
+    replaced wholly by sweet. A very good apple. Also, a pretty apple. I 
+    preferred the intense first apple, but the second one was still on par with 
+    some of the better sweet apples I've had a chance to taste. (After finishing
+    the bag, I can say that the rest were as good as the first.)
+
+- name: Kanzi
+  rating: 6.5
+  date: 2025-09-21
+  review: |
+    It's alright. Moderate crunch. Very dense and juicy. Sweet in some bites, 
+    bland in others, and occasionally bitter, maybe from the skin. The skin is also 
+    slightly tough.
+
+- name: Envy
+  rating: 7.25
+  date: 2025-09-20
+  review: |
+    A good choice for sweet apple fans. Excellent styrofoam crunch and decent 
+    skin. Delicate sweet flavor. A honey aftertaste. As tasty as it is beautiful.
+    For the price, I find the Envy slightly underwhelming.
+
+- name: Sweetie
+  rating: 4.5
+  date: 2025-09-20
+  review: |
+    Not good. Mushy with a tough skin. Not very sweetie. Bland.
+
+- name: Gala
+  rating: 5
+  date: 2025-09-19
+  review: |
+    You know what a Gala tastes like. Eh. Soft and boring.
+
+- name: Honeycrisp
+  rating: 6
+  date: 2025-09-19
+  review: |
+    Overrated and underwhelming. Not as sweet as the name would imply.
+
+- name: Cosmic Crisp
+  rating: 7
+  date: 2025-09-19
+  review: |
+    Very crisp indeed. Extra points for consistency. It
+    has nearly the perfect juicy and crispy texture, but I just wish it would
+    pack a little bit more flavor. It needs more sour flavors and more depth
+    with the sweetness. Still my stable staple.
+
+- name: Pink Lady
+  rating: 7.5
+  date: 2025-09-19
+  review: | 
+    Probably what Granny Smith was like before she turned an old sour hag. 
