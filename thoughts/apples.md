@@ -20,7 +20,7 @@ category: thoughts
 
 ___
 
-_Apples are evaluated only by their quality as a snack, plain, uncooked, sometimes refrigerated. Unless otherwise noted, all specimens were purchased from grocery stores in Texas._
+_Apples are evaluated only by their quality as a snack. Plain, uncooked, sometimes refrigerated. Unless otherwise noted, all specimens were purchased from grocery stores in Texas._
 
 The birth of this page may be in response to judgement of my once-uneducated apple preferences. Never should the apple consumer consume apples blindly. Genuine apple criticism is the only true path to a riper age. 
 
