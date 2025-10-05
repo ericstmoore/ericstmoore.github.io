@@ -1,7 +1,7 @@
 ---
 layout: page
 title: On Apples
-subtitle: A Passion Project
+subtitle: A Cultivar Criticism
 category: thoughts
 ---
 
