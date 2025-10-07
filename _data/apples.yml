@@ -1,3 +1,17 @@
+- name: Cortland
+  rating: 5.75
+  date: 2025-10-05
+  review: |
+    The Cortland has a wide, flattened shape, similar to the McIntosh. The skin is smooth 
+    with vertical stripes in hues of red, ranging from a deep crimson to 
+    orangish pinks on a canvas of yellow-green. Cutting through its tough skin, 
+    you're met by remarkably pale white flesh.
+    It's a juicy apple, although it inherits the mushy flesh of the McIntosh.
+    The flavor is mostly tart, though notes of orange and cranberry are present.
+    Its sweetness comes through at the end of the bite. In this particular specimen,
+    one quarter stood out significantly sweeter. It tasted of honey, and the 
+    flesh was chewier and less pale.
+
 - name: Golden Delicious
   rating: 4.5
   date: 2025-10-04
@@ -17,7 +31,7 @@
     FAR too sweet. Aftertaste lingered for nearly an hour. Makes me sad.
 
 - name: Snapdragon
-  rating: 7
+  rating: 6.75
   date: 2025-10-02
   review: |
     This is a really good sweet apple, but it still has enough tart flavor to
@@ -50,8 +64,9 @@
     little chewy. Redeemingly, the skin does have a pop when you bite, as if 
     it were stretched tight over the apple. The flavor is predominantly tart, but
     it has a decent amount of sweetness. Would be great if it weren't so soft 
-    and the skin weren't so tough. <ul>Elle Lowe, Visiting Critic: "It tasted like 
-    green apple candy, and transported me to Halloween."</ul>
+    and the skin weren't so tough.  
+    - Elle Lowe, Visiting Critic: "It tasted like 
+    green apple candy, and transported me to Halloween."  
 
 - name: Sweetango
   rating: 9
@@ -95,10 +110,13 @@
     You know what a Gala tastes like. Eh. Soft and boring.
 
 - name: Honeycrisp
-  rating: 6
-  date: 2025-09-19
+  rating: 7
+  date: 2025-10-06
   review: |
-    Overrated and underwhelming. Not as sweet as the name would imply.
+    Although I first found it overrated, underwhelming, and not as sweet as the name 
+    would imply (6/10, 2025-09-19), later honeycrisps have changed my mind. A supremely sweet apple,
+    mostly consistent in quality. Their basic flavor keeps the honeycrisp
+    from achieving a greater ranking. 
 
 - name: Cosmic Crisp
   rating: 7

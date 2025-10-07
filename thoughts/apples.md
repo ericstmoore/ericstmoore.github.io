@@ -11,7 +11,7 @@ category: thoughts
 <strong>{{ apple.name }}:</strong><br>
 {% if apple.rating -%}{{ apple.rating }}/10<br>{%- endif %}
 
-<blockquote>{{ apple.review }} ({{ apple.date | date: "%Y.%m.%d" }})</blockquote>
+- {{ apple.review }} ({{ apple.date | date: "%Y.%m.%d" }})
 {% endfor %}
 
 
