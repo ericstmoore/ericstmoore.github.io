@@ -5,7 +5,7 @@ subtitle: A Cultivar Criticism
 category: thoughts
 ---
 
-{% assign apples_by_date = site.data.apples | sort: "reviews" | reverse %}
+{% assign apples_by_date = site.data.apples | sort: "latest_review_date" | reverse %}
 
 {% for apple in apples_by_date %}
 <strong>{{ apple.name }}:</strong><br>
