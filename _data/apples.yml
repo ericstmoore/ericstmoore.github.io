@@ -1,134 +1,201 @@
+- name: Empire
+  rating: 5.25
+  reviews:
+    - date: 2025-10-16
+      review: |
+        This apple is very small and round, with a dark purple-red hue, striking against 
+        the monotony of most grocery store apples. The flesh is light with a 
+        slightly yellow-green color. Smells grassy and tart. Tastes like it smells, a standard 
+        sour apple with just enough sweetness. Moderately crunchy, a little on 
+        the soft and mealy side (no surprise for a McIntosh descendant). The juciness is 
+        good, but the skin is very chewy. What it gains on the McIntosh with its
+        firmer flesh, it loses very quickly with its leathery skin. 
+
+- name: Jazz
+  rating: 4.75
+  reviews:
+    - date: 2025-10-15
+      review: |
+        There's not much to say about this very normal apple. A tall, orangish-red 
+        fruit with small green lenticels. Almost no scent. Overall, very bland,
+        and the little taste it has is grassy and bitter. The texture is mealy, 
+        and the skin is tough. Some bites indicate potential
+        for flavor, but hardly enough to be described. It also browns fast.
+
+- name: Hunnyz
+  rating: 6.5
+  reviews:
+    - date: 2025-10-13
+      review: |
+        Hunnyz stand out at first as a very prominently dotted apple. The 
+        lenticels pop against its red-yellow skin. Take a bite, and at first, it's 
+        crunchy and crisp. But then it gets chewy, almost as if the entire apple 
+        was core. As a core eater myself, I'm not sure that's a bad thing, but 
+        it's not great either. The skin is background noise next to the texture 
+        of the flesh. A good comparison is Jicama, or a raw potato. To add to its 
+        uniquness, the Hunnyz tastes much like red grape, and the aftertaste 
+        lingers pleasantly. 
+
 - name: Cortland
   rating: 5.75
-  date: 2025-10-05
-  review: |
-    The Cortland has a wide, flattened shape, similar to the McIntosh. The skin is smooth 
-    with vertical stripes in hues of red, ranging from a deep crimson to 
-    orangish pinks on a canvas of yellow-green. Cutting through its tough skin, 
-    you're met by remarkably pale white flesh.
-    It's a juicy apple, although it inherits the mushy flesh of the McIntosh.
-    The flavor is mostly tart, though notes of orange and cranberry are present.
-    Its sweetness comes through at the end of the bite. In this particular specimen,
-    one quarter stood out significantly sweeter. It tasted of honey, and the 
-    flesh was chewier and less pale.
+  reviews:
+    - date: 2025-10-05
+      review: |
+        The Cortland has a wide, flattened shape, similar to the McIntosh. The skin is smooth 
+        with vertical stripes in hues of red, ranging from a deep crimson to 
+        orangish pinks on a canvas of yellow-green. Cutting through its tough skin, 
+        you're met by remarkably pale white flesh.
+        It's a juicy apple, although it inherits the mushy flesh of the McIntosh.
+        The flavor is mostly tart, though notes of orange and cranberry are present.
+        Its sweetness comes through at the end of the bite. In this particular specimen,
+        one quarter stood out significantly sweeter. It tasted of honey, and the 
+        flesh was chewier and less pale.
 
 - name: Golden Delicious
   rating: 4.5
-  date: 2025-10-04
-  review: |
-    An average, boring apple. Not much to say for flavor. Slightly sweet, slightly tart, 
-    mostly just mild overall. Tastes like unsweetened applesauce. Similar to the 
-    Fuji but without the disgustingly overpowering, in-your-face sweetness. Thick 
-    skin but not too chewy. The texture of this one was unique. Somewhat mealy 
-    and grainy, but the bite starts snappy. Not one I'd buy unless you like 
-    apples with ignorable flavor.
+  reviews:
+    - date: 2025-10-04
+      review: |
+        An average, boring apple. Not much to say for flavor. Slightly sweet, slightly tart, 
+        mostly just mild overall. Tastes like unsweetened applesauce. Similar to the 
+        Fuji but without the disgustingly overpowering, in-your-face sweetness. Thick 
+        skin but not too chewy. The texture of this one was unique. Somewhat mealy 
+        and grainy, but the bite starts snappy. Not one I'd buy unless you like 
+        apples with ignorable flavor.
 
 - name: Fuji
   rating: 2
-  date: 2025-10-03
-  review: |
-    Bland, mushy, horrible flavor. Tastes like a bomb of white sugar with no depth.
-    FAR too sweet. Aftertaste lingered for nearly an hour. Makes me sad.
+  reviews:
+    - date: 2025-10-03
+      review: |
+        Bland, mushy, horrible flavor. Tastes like a bomb of white sugar with no depth.
+        FAR too sweet. Aftertaste lingered for nearly an hour. Makes me sad.
 
 - name: Snapdragon
   rating: 6.75
-  date: 2025-10-02
-  review: |
-    This is a really good sweet apple, but it still has enough tart flavor to
-    keep me interested. Super crispy and snappy, like the name suggests. No
-    weird aftertaste. Has some pleasant flavors in the back that I can't place.
+  reviews:
+    - date: 2025-10-02
+      review: |
+        This is a really good sweet apple, but it still has enough tart flavor to
+        keep me interested. Super crispy and snappy, like the name suggests. No
+        weird aftertaste. Has some pleasant flavors in the back that I can't place.
 
 - name: Sugarbee
   rating: 3
-  date: 2025-10-01
-  review: |
-    Super bland apart from an off, sickening taste, like honey if you took away
-    all the sweetness. Tastes like a bland, unripe pear. Also has an odd bitter and 
-    chemically flavor. The texture is average, skin is fine. The flesh is oddly yellow. 
-    
+  reviews:
+    - date: 2025-10-01
+      review: |
+        Super bland apart from an off, sickening taste, like honey if you took away
+        all the sweetness. Tastes like a bland, unripe pear. Also has an odd bitter and 
+        chemically flavor. The texture is average, skin is fine. The flesh is oddly yellow.
 
-- name: Rave
-  rating: 6.5
-  date: 2025-09-29
-  review: |
-    Apple is a bit unusual, but the texture is wonderful. Skin not too chewy, with a good 
-    crisp bite. But the flavor? It's slightly tart, but mostly sweet. Almost too sweet.
-    Weird chemical fruit flavor and bitterness. Tastes somewhat artificial to me. 
-    It could be so good, but that flavor is not pleasant.
+- name: Rave / First Kiss
+  rating: 6
+  reviews:
+    - date: 2025-10-13
+      review: |
+        Unlike the last review of the Rave apple, the specimen in question is 
+        of the First Kiss variety, exclusively Minnesota-grown. The apple has a 
+        visibly smooth skin, strong red with patches yellow-orange. Immediately
+        upon cutting the apple in half, everyone in the room will get a smell
+        of cider. It's easily the strongest-smelling apple I've encountered. The skin 
+        is slightly tough, and the flesh has an average crunch, slightly chewy.
+        The juciness is good, and the flavor is an okay balance of sweet and sour. 
+        None of the chemical taste as in the Rave. Some of the cidery smell makes 
+        its way to the flavor, but not much. This bag was a little mealy, but given
+        that this is an early-ripening apple, I might have just been late.
+    - date: 2025-09-29
+      review: |
+        The Rave is a bit unusual, but the texture is wonderful. Skin not too chewy, with a good 
+        crisp bite. But the flavor? It's slightly tart, but mostly sweet. Almost too sweet.
+        Weird chemical fruit flavor and bitterness. Tastes somewhat artificial to me. 
+        It could be so good, but that flavor is not pleasant.
 
 - name: McIntosh
   rating: 5.5
-  date: 2025-09-28
-  review: |
-    Not bad, not great. Average. Too mushy for my taste, and the skin is a 
-    little chewy. Redeemingly, the skin does have a pop when you bite, as if 
-    it were stretched tight over the apple. The flavor is predominantly tart, but
-    it has a decent amount of sweetness. Would be great if it weren't so soft 
-    and the skin weren't so tough.  
-    - Elle Lowe, Visiting Critic: "It tasted like 
-    green apple candy, and transported me to Halloween."  
+  reviews:
+    - date: 2025-09-28
+      review: |
+        Not bad, not great. Average. Too mushy for my taste, and the skin is a 
+        little chewy. Redeemingly, the skin does have a pop when you bite, as if 
+        it were stretched tight over the apple. The flavor is predominantly tart, but
+        it has a decent amount of sweetness. Would be great if it weren't so soft 
+        and the skin weren't so tough.  
+          - Elle Lowe, Visiting Critic: "It tasted like 
+        green apple candy, and transported me to Halloween."
 
 - name: Sweetango
   rating: 9
-  date: 2025-09-27
-  review: | 
-    An amazing and very flavorful apple. I had two today, and there was a 
-    lot of variation. The first one was punchy and tart with a decent 
-    sweetness. Crispy and very tasty. A new favorite for sure. The second 
-    one was even more crispy, but the sour flavor was almost completely gone and 
-    replaced wholly by sweet. A very good apple. Also, a pretty apple. I 
-    preferred the intense first apple, but the second one was still on par with 
-    some of the better sweet apples I've had a chance to taste. (After finishing
-    the bag, I can say that the rest were as good as the first.)
+  reviews:
+    - date: 2025-09-27
+      review: | 
+        An amazing and very flavorful apple. I had two today, and there was a 
+        lot of variation. The first one was punchy and tart with a decent 
+        sweetness. Crispy and very tasty. A new favorite for sure. The second 
+        one was even more crispy, but the sour flavor was almost completely gone and 
+        replaced wholly by sweet. A very good apple. Also, a pretty apple. I 
+        preferred the intense first apple, but the second one was still on par with 
+        some of the better sweet apples I've had a chance to taste. (After finishing
+        the bag, I can say that the rest were as good as the first.)
 
 - name: Kanzi
   rating: 6.5
-  date: 2025-09-21
-  review: |
-    It's alright. Moderate crunch. Very dense and juicy. Sweet in some bites, 
-    bland in others, and occasionally bitter, maybe from the skin. The skin is also 
-    slightly tough.
+  reviews:
+    - date: 2025-09-21
+      review: |
+        It's alright. Moderate crunch. Very dense and juicy. Sweet in some bites, 
+        bland in others, and occasionally bitter, maybe from the skin. The skin is also 
+        slightly tough.
 
 - name: Envy
-  rating: 7.25
-  date: 2025-09-20
-  review: |
-    A good choice for sweet apple fans. Excellent styrofoam crunch and decent 
-    skin. Delicate sweet flavor. A honey aftertaste. As tasty as it is beautiful.
-    For the price, I find the Envy slightly underwhelming.
+  rating: 6.25
+  reviews:
+    - date: 2025-09-20
+      review: |
+        A decent choice for sweet apple fans. Not so much if you like flavor. 
+        Excellent styrofoam crunch and okay skin. Delicate sweet flavor, which 
+        can be too delicate, often bland. A honey aftertaste if you're lucky. 
+        Not narly as tasty as it is beautiful. For the price, I find the 
+        Envy slightly underwhelming.
 
 - name: Sweetie
   rating: 4.5
-  date: 2025-09-20
-  review: |
-    Not good. Mushy with a tough skin. Not very sweetie. Bland.
+  reviews:
+    - date: 2025-09-20
+      review: |
+        Not good. Mushy with a tough skin. Not very sweetie. Bland.
 
 - name: Gala
   rating: 5
-  date: 2025-09-19
-  review: |
-    You know what a Gala tastes like. Eh. Soft and boring.
+  reviews:
+    - date: 2025-09-19
+      review: |
+        You know what a Gala tastes like. Eh. Soft and boring.
 
 - name: Honeycrisp
-  rating: 7
-  date: 2025-10-06
-  review: |
-    Although I first found it overrated, underwhelming, and not as sweet as the name 
-    would imply (6/10, 2025-09-19), later honeycrisps have changed my mind. A supremely sweet apple,
-    mostly consistent in quality. Their basic flavor keeps the honeycrisp
-    from achieving a greater ranking. 
+  rating: 7.5
+  reviews:
+    - date: 2025-10-06
+      review: |
+        While at first I found the Honeycrisp overrated, underwhelming, and not 
+        as sweet as the name would imply, Later honeycrisps have changed my mind. 
+        A solid sweet-sour apple, and mostly consistent in quality. Only its basic 
+        flavor keeps the honeycrisp from achieving a greater ranking.
 
 - name: Cosmic Crisp
   rating: 7
-  date: 2025-09-19
-  review: |
-    Very crisp indeed. Extra points for consistency. It
-    has nearly the perfect juicy and crispy texture, but I just wish it would
-    pack a little bit more flavor. It needs more sour flavors and more depth
-    with the sweetness. Still my stable staple.
+  reviews:
+    - date: 2025-09-19
+      review: |
+        Very crisp indeed. Extra points for consistency. It
+        has nearly the perfect juicy and crispy texture, but I just wish it would
+        pack a little bit more flavor. It needs more sour flavors and more depth
+        with the sweetness. Still my stable staple. Extra points for browning
+        resistance.
 
 - name: Pink Lady
-  rating: 7.5
-  date: 2025-09-19
-  review: | 
-    Probably what Granny Smith was like before she turned an old sour hag. 
+  rating: 7.25
+  reviews:
+    - date: 2025-09-19
+      review: | 
+        Probably what Granny Smith was like before she turned an old sour hag.

@@ -5,16 +5,17 @@ subtitle: A Cultivar Criticism
 category: thoughts
 ---
 
-{% assign sorted_apples = site.data.apples | sort: "date" | reverse %}
+{% assign apples_by_date = site.data.apples | sort: "reviews" | reverse %}
 
-{% for apple in sorted_apples %}
+{% for apple in apples_by_date %}
 <strong>{{ apple.name }}:</strong><br>
 {% if apple.rating -%}{{ apple.rating }}/10<br>{%- endif %}
 
-- {{ apple.review }} ({{ apple.date | date: "%Y.%m.%d" }})
+{% assign sorted_reviews = apple.reviews | sort: "date" | reverse %}
+{% for review in sorted_reviews %}
+- {{ review.review }} ({{ review.date | date: "%Y.%m.%d" }})
 {% endfor %}
-
-
+{% endfor %}
 
 <br>[See Rankings](/thoughts/apple_rankings.html)  
 
