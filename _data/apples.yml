@@ -1,3 +1,36 @@
+- name: Red Delicious
+  rating: 3.5
+  latest_review_date: 2025-10-27
+  reviews:
+    - date: 2025-10-27
+      review: |
+        Red? Yes. It has a gorgeous, deep, and consistent crimson hue. Delicious? No.
+        The taste is barely present, only a hint. No depth of flavor,
+        just a whisper of bland apple sweetness. The texture is soft and sad, with
+        a bite more chewy than crispy, and a tough skin. The juciness is 
+        a minor plus. But what of it? The red delicious should be 
+        left behind in the produce bin.
+
+- name: Opal
+  rating: 6.75
+  latest_review_date: 2025-10-25
+  reviews:
+    - date: 2025-10-25
+      review: |
+        One look at an Opal is enough to know it's a special apple. Golden Delicious
+        is a pale husk compared to its bright yellow progeny. Whether the
+        russeting around the stem is a gross defect or an expression of natural
+        beauty is up for debate. Sitting in a bag untouched, these apples
+        beg to be eaten with their strong, fresh, and floral scent. Taking a bite,
+        you'll immediately notice the juicy flesh and unique flavor. It's sweet,
+        delicate, just a little sour, and noticeably reminiscent of pear. The sweetness
+        takes on an almost creamy quality, like a ripe banana—or is that the yellow 
+        getting in my head? The flavor is certainly muted, but not at all bland.
+        There are great notes of other fruits, notably grapes, and a drizzle of honey. If 
+        not for the slightly chewy skin and underwhelming texture, this apple would
+        be a top contender, but its depth of flavor is still enough on its 
+        own to set the Opal apart.
+
 - name: Empire
   rating: 5.25
   latest_review_date: 2025-10-16
