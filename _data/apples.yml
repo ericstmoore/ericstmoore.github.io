@@ -1,3 +1,46 @@
+- name: Lucy Glo
+  rating: 5
+  laterst_review_date: 2025-11-29
+  reviews:
+    - date: 2025-11-29
+      review: |
+        As I continue, later and later into the season, I wonder if it's not their 
+        fault? Am I on a losing streak, or are these apples past their prime? 
+        Should I feel guilty rating an innocent apple this low? We go on. Lucy 
+        Glo was a second chance for apples of color. Certainly, it was better 
+        than Kissabel R., but not enough. Just like before, an odd, crunchy, 
+        jicama-like texture. This time, a sweeter flavor, not bad. You get 
+        delicate notes of white grape and pear. A decent balance of sweetness 
+        and acidity. Not a strong apple, I might say bland, but sometimes a bite 
+        leaves an impression.
+
+- name: Kissabel Rouge
+  rating: 4.75
+  laterst_review_date: 2025-11-29
+  reviews:
+    - date: 2025-11-29
+      review: |
+        An apple, red on the inside? If you've never seen a colorfully cored 
+        specimen in your apple-eating journey, I should warn you, looks can be 
+        deceiving. The first of two wild cards, Kissabel Rouge, impressed me with 
+        its crimson skin and pink interior. However, despite its flair, the Rouge 
+        is unsettlingly crunchy rather than crisp, chewy at the skin, and worst 
+        of all, dully sour; a pair that shouldn't go together. I was no longer 
+        impressed.
+
+- name: Ambrosia
+  rating: 4
+  latest_review_date: 2025-11-27
+  reviews:
+    - date: 2025-11-27
+      review: |
+        Not quite the godly apple its name might imply. Everything about its
+        muted, can't-decide-if-red-or-yellow skin, nonexistent scent, mealy
+        flesh, and flat flavor leaves the immortality-seeking apple consumer
+        wanting. Perhaps if you squint your mouth, you might taste just a sprinkle
+        of honey and ambiguous apple. Not a drop of acid to be seen. To be fair, 
+        this apple had been sitting in the fridge for longer than any apple deserves.
+
 - name: Red Delicious
   rating: 3.5
   latest_review_date: 2025-10-27
