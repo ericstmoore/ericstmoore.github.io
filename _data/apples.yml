@@ -1,6 +1,6 @@
 - name: Lucy Glo
   rating: 5
-  laterst_review_date: 2025-11-29
+  latest_review_date: 2025-11-29
   reviews:
     - date: 2025-11-29
       review: |
@@ -16,7 +16,7 @@
 
 - name: Kissabel Rouge
   rating: 4.75
-  laterst_review_date: 2025-11-29
+  latest_review_date: 2025-11-29
   reviews:
     - date: 2025-11-29
       review: |
