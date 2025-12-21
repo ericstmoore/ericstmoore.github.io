@@ -1,3 +1,38 @@
+- name: Lucy Rose
+  rating: 6.5
+  latest_review_date: 2025-12-13
+  reviews:
+    - date: 2025-12-13
+      review: |
+        Spotting this apple in the store was a wonderful surprise. An early 
+        Christmas gift from Lucy. I had just reviewed the Lucy Glo and found myself
+        dissatisfied. This was meant to be—a second chance. The first
+        noticeable difference is the intense redness of the skin. Inside, the apple 
+        is splotched with red and pink, more so than the Glo. The texture is on the 
+        crunchy, chewy side. The skin is as nice as it looks, with a subtle snap 
+        that backs away to let the apple through. Mainly tart, but with an aftertaste 
+        of subdued sweetness and cherry that lingers on the back of the tongue. 
+        Sadly, the second Rose I tasted was garbage. The original review remains
+        unchanged as a gracious demonstration of _the benefit of the doubt_.
+  
+          - Elle Lowe, Visiting Critic: "Tasted like pink and has a perfumey
+        note, sweeter in the pink bits. The girliest of apples."
+
+- name: Evercrisp
+  rating: 5 
+  latest_review_date: 2025-12-10
+  reviews:
+    - date: 2025-12-14
+      review: |
+        Being a hybrid of the dependable Honeycrisp and the deplorable Fuji, I
+        had uncertain expectations tasting this apple. Overall, I was pleasantly
+        surprised at the Evercrisp's ability to rise above the generational 
+        disappointment in its paternal line. Fortunately, it inherits an excellent 
+        texture and decent-enough flavor from the other side. Crisp and crunchy, 
+        with just enough acid to balance out a familiar, sweet, and still-lingering 
+        flavor.
+        
+
 - name: Lucy Glo
   rating: 5
   latest_review_date: 2025-11-29
