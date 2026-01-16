@@ -1,3 +1,82 @@
+- name: Sunchaser
+  rating: 6
+  latest_review_date: 2026-01-03
+  reviews:
+    - date: 2026-01-03
+      review: |
+        I wish I could know more about this apple. Apparently, it's a new Walmart 
+        exclusive. I know no more. That much is a mystery. Greater still is how 
+        they managed to alchemize an entire watermelon directly into the shell 
+        of an apple. It has the exact same texture as one near the rind. It even 
+        tastes like melon, but with a weird anise aftertaste and even a little 
+        caramel. Light, watery, crunchy, and just barely sweet. Like a bland, 
+        unripe watermelon.
+
+- name: Autumn Glory
+  rating: 5.25
+  latest_review_date: 2026-01-02
+  reviews:
+    - date: 2026-01-02
+      review: |
+        No apple could bend the moss'd cottage-trees like an Autumn Glory. 
+        Painted on its skin is a portrait of the misty season itself. Thick 
+        stripes of orange, yellow, and red, like the ridges of a gourd. Mine had 
+        a nice crispy texture, a thin skin, and notable juiciness. The flavor 
+        was basic, sweet, and otherwise unsatisfying. A standard and middling 
+        apple in everything but appearance.
+
+- name: Ludacrisp
+  rating: 7
+  latest_review_date: 2025-12-31
+  reviews:
+    - date: 2025-12-31
+      review: |
+        A round, even, and red apple with a slight orange undertone. It gives off 
+        a noticeable aroma when cut, the sweet smell lingering as you expose 
+        the apple's uniquely pale yellow flesh. In the hand, a Ludacrisp is 
+        shockingly dense. Take a bite, however, and you get a texture too crisp 
+        and dry for the apple's apparent weight. At the same time, it is quite 
+        juicy. Most importantly, Ludacrisp is an intensely tart citrusy flavor 
+        bomb, strong enough to give me a headache.
+
+- name: Pazzazz
+  rating: 4.75
+  latest_review_date: 2025-12-27
+  reviews:
+    - date: 2025-12-27
+      review: |
+        There is sadly little pizzazz to be found in the juicy bite of a Pazzazz. 
+        Points for good crunch, light skin, and a high level of juiciness. 
+        Deductions for a flavor that, although generally balanced, is slightly
+        bitter and lacking in sweetness and depth. 
+
+- name: Lady Alice
+  rating: 4.8
+  latest_review_date: 2025-12-26
+  reviews:
+    - date: 2025-12-26
+      review: |
+        I approached this apple with high hopes and higher expectations thanks 
+        to the rave reviews that reached me from my tasting advisors. Finally 
+        taking it in my hand, the vibrant, striped, red-to-yellow gradient and 
+        pleasing matte skin fanned the flames. An excellent crunch continued the 
+        wave. Soon after, the rest let me down. The skin was a bit too chewy, 
+        the minimal sweetness quickly became bitter and grassy. What decent 
+        juice it had felt diluted on the tongue. Maybe next time.
+
+- name: Modi
+  rating: 4.6
+  latest_review_date: 2025-12-25
+  reviews:
+    - date: 2025-12-25
+      review: |
+        All the way from Italy (in development, not growth), there's Modi. My 
+        specimen was small and egg-shaped, dark red, and with splotches of orange. 
+        The initial scent would suggest a sour apple, but in reality, this one 
+        is purely sweet, not tart at all. It's mild, floral, and fruity. As 
+        for texture, it is crunchy at first but chews into a disappointing mush 
+        quickly. Overall, not enough to win me over. 
+
 - name: Lucy Rose
   rating: 6.5
   latest_review_date: 2025-12-13
