@@ -6,8 +6,6 @@ subtitle: A Cultivar Criticism
 
 {{< apples >}}
 
-
-[See Rankings](/thoughts/apple-rankings/)
 ___
 
 _Apples are evaluated only by their quality as a snack. Plain, uncooked, sometimes refrigerated. Unless otherwise noted, all specimens were purchased from grocery stores in Texas._

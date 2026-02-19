@@ -1,0 +1,18 @@
+{{ $out := "" }}
+
+{{ $apples := sort site.Data.apples "latest_review_date" "desc" }}
+{{ range $apple := $apples }}
+{{ $out = printf "%s**%s:**  \n" $out $apple.name }}
+{{ with $apple.rating }}{{ $out = printf "%s%v/10  \n" $out . }}{{ end }}
+
+{{ $reviews := sort $apple.reviews "date" "desc" }}
+{{ range $review := $reviews }}
+{{ $out = printf "%s- %s (%s)\n" $out $review.review ($review.date | time.Format "2006.01.02") }}
+{{ end }}
+
+{{ $out = printf "%s\n" $out }}
+{{ end }}
+
+{{ $out = printf "%s\n[See Rankings](/thoughts/apple_rankings/)\n" $out }}
+
+{{ $out | markdownify }}

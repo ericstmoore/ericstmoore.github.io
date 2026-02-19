@@ -1,3 +1,5 @@
 baseURL = 'https://esmoore.com/'
 languageCode = 'en-us'
 title = 'Eric S. Moore'
+
+ignoreLogs = ['warning-goldmark-raw-html']
