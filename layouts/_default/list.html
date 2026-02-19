@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<hr>
+
+
+<!-- Pinned pages -->
+{{ $pinned := where .Pages "Params.pinned" true }}
+{{ if $pinned }}
+<ul>
+{{ range $pinned }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
+
+<!-- Dated posts -->
+<ul>
+{{ range .Pages }}
+  {{ if .Date }}
+    <li>
+      {{ .Date.Format "2006.01.02" }} &ndash;
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+{{ end }}
+</ul>
+
+{{ end }}
