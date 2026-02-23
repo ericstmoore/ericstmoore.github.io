@@ -47,7 +47,7 @@
 }
 
 html {
-    font-size: clamp(16px, 1rem + 0.4vw, 20px);
+    font-size: clamp(17px, 1rem + 0.4vw, 20px);
 
 }
 
@@ -95,7 +95,6 @@ a:hover{
 
 p a {
   text-decoration-line: underline;
-  text-decoration-thickness: 1px;
   text-decoration-thickness: 0.05em;
   text-underline-offset: 0.1em;
 }
@@ -111,6 +110,7 @@ blockquote {
 .poem {
   font-family: inherit;
   margin: 1rem auto;   
+  max-width: 100%;
   white-space: pre;  
   overflow-x: auto;
 }
