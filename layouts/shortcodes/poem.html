@@ -1,0 +1,9 @@
+{{ $name := .Get 0 }}
+
+{{ $path := printf "static/assets/poems/%s.txt" $name }}
+{{ $content := readFile $path }}
+
+{{ $content = replaceRE `\*\*(.+?)\*\*` `<strong>$1</strong>` $content }}
+{{ $content = replaceRE `\*(.+?)\*` `<em>$1</em>` $content }}
+
+<div class="poem">{{ $content | safeHTML }}</div>

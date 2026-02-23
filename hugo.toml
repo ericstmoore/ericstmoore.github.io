@@ -3,3 +3,9 @@ languageCode = 'en-us'
 title = 'Eric S. Moore'
 
 ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup.goldmark.extensions]
+typographer = true

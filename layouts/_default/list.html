@@ -4,19 +4,16 @@
 {{ .Content }}
 <hr>
 
-
+<ul>
 <!-- Pinned pages -->
 {{ $pinned := where .Pages "Params.pinned" true }}
 {{ if $pinned }}
-<ul>
 {{ range $pinned }}
   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 {{ end }}
-</ul>
 {{ end }}
 
 <!-- Dated posts -->
-<ul>
 {{ range .Pages }}
   {{ if .Date }}
     <li>
