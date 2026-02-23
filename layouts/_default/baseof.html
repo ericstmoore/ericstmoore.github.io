@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>
+    {{ if .IsHome }}
+      Eric S. Moore
+    {{ else if .IsSection }}
+      ESM - {{ .Title }}
+    {{ else if .IsPage }}
+      ESM - {{ .Title }}
+    {{ else }}
+      {{ .Site.Title }}
+    {{ end }}
+  </title>
+  <link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
+</head>
+<body>
+
+<nav>
+  <!-- so sorry again. but less sorry. -->
+  {{ $current := .Section }}
+
+  <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page"{{ end }}>Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="{{ "/ink/" | relURL }}" {{ if eq $current "ink" }}class="active-page"{{ end }}>Ink</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="{{ "/reading/" | relURL }}" {{ if eq $current "reading" }}class="active-page"{{ end }}>Reading</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="{{ "/thoughts/" | relURL }}" {{ if eq $current "thoughts" }}class="active-page"{{ end }}>Thoughts</a>
+
+  <hr style="margin-bottom: 0em;">
+</nav>
+
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+</body>
+</html>

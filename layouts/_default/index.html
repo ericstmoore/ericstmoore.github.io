@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>Welcome to my website! Shoes off please.</p>
+<hr>
+
+<h3>Latest Posts</h3>
+
+<ul>
+{{ range .Site.RegularPages }}
+  {{ if .Date }}
+    <li>
+      {{ .Date.Format "2006.01.02" }} &ndash;
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+{{ end }}
+</ul>
+{{ end }}
