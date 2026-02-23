@@ -9,3 +9,7 @@ unsafe= true
 
 [markup.goldmark.extensions]
 typographer = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
