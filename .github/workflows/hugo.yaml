@@ -78,8 +78,6 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-      - name: Add CNAME for custom domain
-        run: echo "www.example.com" > public/CNAME
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
