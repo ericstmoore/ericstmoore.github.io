@@ -1,4 +1,5 @@
 ---
-title: "Thoughts"
+title: Thoughts
+subtitle: "Everything Else:"
 ---
-Everything Else:
+{{< post-list >}}

@@ -5,7 +5,6 @@
   src: url('/assets/fonts/agaramondpro-regular.woff2') format('woff2');
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Adobe Garamond';
   font-style: italic;
@@ -13,7 +12,6 @@
   src: url('/assets/fonts/agaramondpro-italic.woff2') format('woff2');
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Adobe Garamond';
   font-style: normal;
@@ -21,7 +19,6 @@
   src: url('/assets/fonts/agaramondpro-semibold.woff2') format('woff2');
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Adobe Garamond';
   font-style: italic;
@@ -30,51 +27,82 @@
   font-display: swap;
 }  
 
-/* :root{  Original Color Scheme
+/* Original Dark Color Scheme
     --fg: #F2F2F2;
     --bg: #202020;
-  
-    --link:       #C3BDFF;
-    --link-visit: var(--fg);
-} */
-
+    --link: #C3BDFF;
+    --link-hover TO-DO
+ */
 :root{ /* Light Mode  */
-    --bg: #F2F2F2;
-    --fg: #202020;
-  
-    --link: #078265;
-    --link-hover: #05513f;
+    --bg: #f5f5f5;
+    --fg: #1b1b1b;
+    --link: #057861;
+    --link-active: #013429;
 }
 
 html {
-    font-size: clamp(17px, 1rem + 0.4vw, 20px);
-
+  font-size: 21px; /* for rem values */
 }
 
 body {
   margin: .5rem auto;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  max-width: 35rem;
+  padding: 0.5rem 1rem;
+  max-width: 66ch;
   color: var(--fg);
   background-color: var(--bg);
-  line-height: 1.6;
-  font-size: 1rem;
-  font-family: 'Adobe Garamond', 'Times New Roman', Times, serif;
-  font-feature-settings: "liga", "kern", "onum";
-}
-
-h1 {
-  line-height: 1;
-  font-weight: 600;
-}
-
-h2, h3, h4{
   line-height: 1.5;
-  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Adobe Garamond', 'Garamond', 'Times New Roman', Times, serif;
+  font-feature-settings: "liga", "kern", "onum";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-strong, b {
+p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+@media (max-width: 600px) { p {
+    text-align: left;
+    hyphens: none;
+}}
+
+header h1 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
   font-weight: 600;
+  line-height: 2.5rem;
+}
+
+h2{
+  line-height: 1.25;
+  font-size: 1.15rem;
+  margin-bottom: 0rem;
+  font-weight: 600;
+} 
+
+p + h2{
+  margin-top: 2rem;
+}
+
+h2 + ul, h2 + ol { 
+  margin-top: 0.25rem;
+}
+
+strong, b { 
+  font-weight: 600 
+}
+
+em, i {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.section-break {
+  text-align: center;
+  margin: 1.25rem auto;
+  letter-spacing: 0.1rem;
 }
 
 a {
@@ -82,35 +110,29 @@ a {
   text-decoration: none;
 }
 
-a.active-page {
-  color: var(--fg);
-}
-
-a:hover{
-  color: var(--link-hover);
-  text-decoration-line: underline;
-  text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.1em;
-}
-
+a:hover,
 p a {
   text-decoration-line: underline;
-  text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.04rem;
+  text-underline-offset: 0.1rem;
+}
+
+a.active-page,
+a:hover {
+  color: var(--link-active);
+}
+
+nav a {
+  margin-right: 1.25rem;
 }
 
 blockquote {
   font-size: 0.9rem;
-  display: block;
-  margin-block-start: 1rem; /* use rem so margins are not effected by smaller font*/
-  margin-block-end: 1rem;
-  margin-inline-start: 3rem;
+  margin-inline-start: 2rem;
 }
 
 .poem {
-  font-family: inherit;
   margin: 1rem auto;   
-  max-width: 100%;
   white-space: pre;  
   overflow-x: auto;
 }

@@ -13,3 +13,5 @@ typographer = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[taxonomies]

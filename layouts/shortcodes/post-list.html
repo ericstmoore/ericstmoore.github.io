@@ -1,0 +1,34 @@
+{{ $arg := .Get 0 }}
+
+
+{{ if eq $arg "home" }}
+  <ul>
+    {{ $dated := where site.RegularPages "Date.IsZero" false }}
+    {{ $dated = where $dated "Params.hidden" "!=" true }}
+    {{ range first 5 $dated.ByDate.Reverse }}
+    <li>
+    {{ .Date.Format "2006.01.02" }} &ndash;
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+{{ else }}
+  <ul>
+    {{ $living := where .Page.RegularPages "Date.IsZero" true }}
+    {{ $living = where $living "Params.hidden" "!=" true }}
+    {{ range $living }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+
+    {{ $dated := where .Page.RegularPages "Date.IsZero" false }}
+    {{ $dated = where $dated "Params.hidden" "!=" true }}
+    {{ range $dated.ByDate.Reverse }}
+      <li>
+        {{ .Date.Format "2006.01.02" }} &ndash;
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

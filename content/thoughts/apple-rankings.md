@@ -1,6 +1,7 @@
 ---
-title: Results
+title: Apple Rankings
 subtitle: Best Apples, Ranked Objectively
+hidden: true
 ---
 1. **Sweetango**: 9/10
     

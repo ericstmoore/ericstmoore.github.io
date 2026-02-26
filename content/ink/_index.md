@@ -1,4 +1,7 @@
 ---
 title: "Ink"
+subtitle: "On the Art of Penmanship:"
 ---
-Historical Penmanship, Calligraphy, Fountain Pens:
+
+{{< post-list >}}
+

@@ -1,0 +1,19 @@
+<header>
+  <hr>
+  <h1>{{ .Title }}</h1>
+
+  <p class="meta">
+    {{ with .Params.subtitle }}
+      {{ . }}
+      {{ if and $.IsPage $.Date }}&nbsp;&ndash;{{ end }}
+    {{ end }}
+
+    {{ if $.IsPage }}
+      {{ with .Date }}
+        {{ .Format "2006.01.02" }}
+      {{ end }}
+    {{ end }}
+  </p>
+
+  <hr>
+</header>

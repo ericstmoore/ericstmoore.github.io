@@ -1,8 +1,9 @@
 ---
-pinned: true
 title: On Apples
-subtitle: A Cultivar Criticism
+subtitle: "A Cultivar Criticism"
+hidden: true
 ---
+
 **Juici**  
 6.7/10
 - This apple has been on a journey, yet despite much time and transportation, it was still pretty crisp when it reached me. A little soft, but not mushy&mdash;we have to be fair. You barely even notice the skin, only a pleasant obstacle to remind you you’re eating something real, from a tree. It’s flavorful and sweet. Usually, I’d wish for more acid to bite back, but the flavor of this apple is good on its own. Not wildly complex. Simple, reminiscent of the dull sweetness of canned fruit, or those fruit cups with cherries. And yes, it’s juicy. (2026.02.13)
@@ -134,12 +135,12 @@ subtitle: A Cultivar Criticism
 **Gala:**   
 5/10
 - You know what a Gala tastes like. Eh. Soft and boring. (2025.09.19)
-
-&nbsp;
+  
+<br>
 
 [See Rankings](/thoughts/apple-rankings/)
 
----
+{{< break >}}
 
 _Apples are evaluated only by their quality as a snack. Plain, uncooked, sometimes refrigerated. Unless otherwise noted, all specimens were purchased from grocery stores in Texas._
 
