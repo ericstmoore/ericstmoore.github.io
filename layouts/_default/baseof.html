@@ -12,8 +12,10 @@
           {{ .Site.Title }}
         {{ end }}
       </title>
-    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ with resources.Get "css/style.css" }}
+      {{ $css := . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ end }}
   </head>
   <body>
 
