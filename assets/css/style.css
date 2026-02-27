@@ -27,12 +27,6 @@
   font-display: swap;
 }  
 
-/* Original Dark Color Scheme
-    --fg: #F2F2F2;
-    --bg: #202020;
-    --link: #C3BDFF;
-    --link-hover TO-DO
- */
 :root{ /* Light Mode  */
     --bg: #f5f5f5;
     --fg: #1b1b1b;
@@ -40,14 +34,13 @@
     --link-active: #013429;
 }
 
-html {
-  font-size: 21px; /* for rem values */
-}
+html { font-size: 21px; } /* for rem values */
+@media (max-width: 600px) { html { font-size: 20px; }}
 
 body {
   margin: .5rem auto;
   padding: 0.5rem 1rem;
-  max-width: 66ch;
+  max-width: 64ch;
   color: var(--fg);
   background-color: var(--bg);
   line-height: 1.5;
@@ -63,11 +56,13 @@ p {
   hyphens: auto;
 }
 
+/* don't justify text on small screens */
 @media (max-width: 600px) { p {
     text-align: left;
     hyphens: none;
 }}
 
+/* used for titles only */
 header h1 {
   margin-top: 1rem;
   margin-bottom: 0rem;
@@ -82,7 +77,7 @@ h2{
   font-weight: 600;
 } 
 
-p + h2{
+p + h2, .poem + h2 {
   margin-top: 2rem;
 }
 
@@ -132,7 +127,24 @@ blockquote {
 }
 
 .poem {
-  margin: 1rem auto;   
-  white-space: pre;  
+  margin: 1rem auto;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.poem--raw {
+  white-space: pre;
   overflow-x: auto;
+}
+
+.poem--wrap .line {
+  margin: 0;
+  white-space: pre-wrap;           
+  padding-left: calc(var(--indent, 0ch) + 1ch);   /* base indent + hanging */
+  text-indent: -1ch;
+}
+
+/* Blank lines in wrapped mode */
+.poem--wrap .stanza.break {
+  height: 1.25rem;
 }

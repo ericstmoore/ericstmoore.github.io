@@ -1,7 +1,7 @@
 ---
-title: New Ideas
-draft: true
+title: On New Ideas
 date: 2026-02-26
+hidden: true
 ---
 For nearly a year, this website has been gathering dust, only growing by a single book review and a page on apples. Of the latter, to be fair, I'm very proud, and I have plans to continue it as long as apples bless the Earth. But for all my talk of sharing, I've been far too quiet. 
 

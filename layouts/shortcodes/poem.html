@@ -1,4 +1,5 @@
 {{ $name := .Get 0 }}
+{{ $mode := .Get 1 | default "wrap" }}
 
 {{ $path := printf "static/assets/poems/%s.txt" $name }}
 {{ $content := readFile $path }}
@@ -6,4 +7,28 @@
 {{ $content = replaceRE `\*\*(.+?)\*\*` `<strong>$1</strong>` $content }}
 {{ $content = replaceRE `\*(.+?)\*` `<em>$1</em>` $content }}
 
-<div class="poem">{{ $content | safeHTML }}</div>
+{{ if eq $mode "wrap" }}
+  {{ $lines := split $content "\n" }}
+  <div class="poem poem--wrap">
+    {{ range $lines }}
+      {{ $trimmed := trim . " \t" }}
+      {{ if eq $trimmed "" }}
+        <div class="stanza break"></div>
+      {{ else }}
+        {{/* leading whitespace count (unchanged) */}}
+        {{ $m := findRE `^(\s*)` . }}
+        {{ $indent := 0 }}
+        {{ if gt (len $m) 0 }}
+          {{ $indent = len (index $m 0) }}
+        {{ end }}
+
+        {{/* strip the leading whitespace completely */}}
+        {{ $clean := replaceRE `^\s+` "" . }}
+
+        <div class="line" style="--indent: {{ $indent }}ch">{{ $clean | safeHTML }}</div>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ else }}
+  <div class="poem poem--raw">{{ $content | safeHTML }}</div>
+{{ end }}
