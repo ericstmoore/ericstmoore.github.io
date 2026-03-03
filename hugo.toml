@@ -2,6 +2,8 @@ baseURL = 'https://esmoore.com/'
 languageCode = 'en-us'
 title = 'Eric S. Moore'
 
+disableKinds = ["sitemap"]
+
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [markup.goldmark.renderer]
@@ -15,3 +17,10 @@ typographer = true
     dir = ':cacheDir/images'
 
 [taxonomies]
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+

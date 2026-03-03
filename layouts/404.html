@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Site.Title }} — 404</title>
+
+    {{ with resources.Get "css/style.css" }}
+      {{ $css := . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ end }}
+  </head>
+
+  <nav><a href="{{ "/" | relURL }}">Home</a></nav>
+  <header>
+    
+    <hr>
+    <h1>404</h1>
+    <p>Page Not Found</p>
+    <hr>
+
+    <body>
+        <div class="poem poem--wrap">
+          <div class="line">To Be Written...</div>
+    </body>
+  </header>
+</html>

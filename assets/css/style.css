@@ -105,8 +105,7 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-p a {
+a:hover{
   text-decoration-line: underline;
   text-decoration-thickness: 0.04rem;
   text-underline-offset: 0.1rem;
@@ -128,7 +127,6 @@ blockquote {
 
 .poem {
   margin: 1rem auto;
-  font-size: 1rem;
   line-height: 1.6rem;
 }
 
@@ -144,7 +142,6 @@ blockquote {
   text-indent: -1ch;
 }
 
-/* Blank lines in wrapped mode */
 .poem--wrap .stanza.break {
   height: 1.25rem;
 }

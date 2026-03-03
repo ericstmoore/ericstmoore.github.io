@@ -7,7 +7,7 @@
         {{ if .IsHome }}
           Eric S. Moore
         {{ else if or .IsSection .IsPage }}
-          ESM - {{ .Title }}
+          ESM — {{ .Title }}
         {{ else }}
           {{ .Site.Title }}
         {{ end }}
