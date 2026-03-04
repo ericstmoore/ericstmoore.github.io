@@ -15,14 +15,12 @@
       {{ if eq $trimmed "" }}
         <div class="stanza break"></div>
       {{ else }}
-        {{/* leading whitespace count (unchanged) */}}
         {{ $m := findRE `^(\s*)` . }}
         {{ $indent := 0 }}
         {{ if gt (len $m) 0 }}
           {{ $indent = len (index $m 0) }}
         {{ end }}
 
-        {{/* strip the leading whitespace completely */}}
         {{ $clean := replaceRE `^\s+` "" . }}
 
         <div class="line" style="--indent: {{ $indent }}ch">{{ $clean | safeHTML }}</div>

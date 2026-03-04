@@ -1,7 +1,7 @@
 ---
 title: Poetry Infrastructure
 date: 2026-02-26 
-draft: true
+# draft: true
 ---
 ## Blockquote
 
@@ -15,3 +15,5 @@ Commentary might go here. This is such a good poem wowowowwo. I think it needs m
 {{< poem song-of-myself >}}
 
 {{< poem the-bridge >}}
+
+{{< poem "own/404" >}}
