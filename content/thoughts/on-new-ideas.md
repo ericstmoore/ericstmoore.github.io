@@ -7,7 +7,7 @@ For nearly a year, this website has been gathering dust, only growing by a singl
 
 On the other hand, I have no lack of ideas. There are a few exciting projects in the works that I can't wait to share. Countless more bounce around my skull. I'm writing this now to throw some out there, and to give an update on what I've been doing to make my website better equipped. 
 
-<br>
+{{< break >}}
 
 Adding new projects to my site as it was would have been a pain. My code was already getting hacky just to support the basic structure. I want to write, create, and design, not tweak Liquid and HTML for hours. Any more creativity might have pushed the limits of Jekyll&mdash;and my sanity. 
 
@@ -33,7 +33,7 @@ All the while, I'm still working on my penmanship, and I'll have some pages to a
 
 I also still want to write the occasional post about my reading. I won't let [*The Lathe of Heaven*](/thoughts/the-lathe-of-heaven) be the only book I've written about. However, I've also created a new section, [*Works*](/works/), where I hope to branch out and begin making some creative pieces of my own. Think poetry, essays, creative writing, or anything else I might write just for the sake of writing. 
 
-<br>
+{{< break >}}
 
 For the time being, my list ends there, but by no means does my motivation.
 
