@@ -8,3 +8,5 @@ subtitle: Welcome to my website! Shoes off please.
 ## Latest Posts 
 
 {{< post-list home >}}
+
+test
