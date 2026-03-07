@@ -24,3 +24,6 @@ typographer = true
   taxonomy = ["HTML"]
   term = ["HTML"]
 
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$', '^CF_PAGES_']
+

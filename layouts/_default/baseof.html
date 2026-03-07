@@ -19,17 +19,31 @@
   </head>
   <body>
 
-  <nav>
-    {{ $current := .CurrentSection.Section }}
-    <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page"{{ end }}>Home</a>
-    <a href="{{ "/ink/" | relURL }}" {{ if eq $current "ink" }}class="active-page"{{ end }}>Ink</a>
-    <a href="{{ "/works/" | relURL }}" {{ if eq $current "works" }}class="active-page"{{ end }}>Works</a>
-    <a href="{{ "/thoughts/" | relURL }}" {{ if eq $current "thoughts" }}class="active-page"{{ end }}>Thoughts</a>
-  </nav>
+    {{ $branch := getenv "CF_PAGES_BRANCH" }}
+    {{ $url := getenv "CF_PAGES_URL" }}
 
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
+    {{ if eq $branch "dev" }}
+    <div style="text-align: right;">
+    <b>Dev Preview</b>
+    </div>
+
+    {{ else if and (eq $branch "main") (strings.Contains $url ".pages.dev") }}
+    <div style="text-align: right;">
+    <b>Archived:</b> {{ now.Format "2006-01-02—15:04" }}
+    </div>
+    {{ end }}
+
+    <nav>
+      {{ $current := .CurrentSection.Section }}
+      <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page"{{ end }}>Home</a>
+      <a href="{{ "/ink/" | relURL }}" {{ if eq $current "ink" }}class="active-page"{{ end }}>Ink</a>
+      <a href="{{ "/works/" | relURL }}" {{ if eq $current "works" }}class="active-page"{{ end }}>Works</a>
+      <a href="{{ "/thoughts/" | relURL }}" {{ if eq $current "thoughts" }}class="active-page"{{ end }}>Thoughts</a>
+    </nav>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
 
   </body>
 </html>
