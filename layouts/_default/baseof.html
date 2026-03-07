@@ -12,24 +12,26 @@
           {{ .Site.Title }}
         {{ end }}
       </title>
-    {{ with resources.Get "css/style.css" }}
+
+      {{ $branch := getenv "CF_PAGES_BRANCH" }}
+      {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
+      {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
+
+      <meta name="build-date" content="{{ $buildTime }}">
+      {{ if $commit }}
+      <meta name="commit-hash" content="{{ $commit }}">
+      {{ end }}
+
+      {{ with resources.Get "css/style.css" }}
       {{ $css := . | minify | fingerprint }}
       <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    {{ end }}
+      {{ end }}
   </head>
+
   <body>
-
-    {{ $branch := getenv "CF_PAGES_BRANCH" }}
-    {{ $url := getenv "CF_PAGES_URL" }}
-
     {{ if eq $branch "dev" }}
     <div style="text-align: right;">
     <b>Dev Preview</b>
-    </div>
-
-    {{ else if and (eq $branch "main") (strings.Contains $url ".pages.dev") }}
-    <div style="text-align: right;">
-    <b>Archived:</b> {{ now.Format "2006-01-02—15:04" }}
     </div>
     {{ end }}
 
@@ -44,6 +46,5 @@
     <main>
       {{ block "main" . }}{{ end }}
     </main>
-
   </body>
 </html>
