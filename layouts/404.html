@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }} — 404</title>
 
+    {{ $branch := getenv "CF_PAGES_BRANCH" }}
+    {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
+    {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
+
+    <meta name="build-date" content="{{ $buildTime }}">
+    {{ if $commit }}
+    <meta name="commit-hash" content="{{ $commit }}">
+    {{ end }}
+
     {{ with resources.Get "css/style.css" }}
       {{ $css := . | minify | fingerprint }}
       <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ end }}
   </head>
+
+   {{ if eq $branch "dev" }}
+    <div style="text-align: right;">
+    <b>Dev Preview</b>
+    </div>
+    {{ end }}
 
   <nav><a href="{{ "/" | relURL }}"><<<</a></nav>
   <header>
