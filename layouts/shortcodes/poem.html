@@ -4,6 +4,7 @@
 {{ $path := printf "static/assets/poems/%s.txt" $name }}
 {{ $content := readFile $path }}
 
+<!-- convert markdown-style bold and italic -->
 {{ $content = replaceRE `\*\*(.+?)\*\*` `<strong>$1</strong>` $content }}
 {{ $content = replaceRE `\*(.+?)\*` `<em>$1</em>` $content }}
 
@@ -11,22 +12,27 @@
   {{ $lines := split $content "\n" }}
   <div class="poem poem--wrap">
     {{ range $lines }}
-      {{ $trimmed := trim . " \t" }}
+      <!-- trim whitespace (standard tab/space only) -->
+      {{ $trimmed := trim . " \t" }} 
       {{ if eq $trimmed "" }}
         <div class="stanza break"></div>
       {{ else }}
+        <!-- count indentation whitespace-->
         {{ $m := findRE `^(\s*)` . }}
         {{ $indent := 0 }}
         {{ if gt (len $m) 0 }}
           {{ $indent = len (index $m 0) }}
         {{ end }}
 
+        <!-- remove indentation whitespace from string -->
         {{ $clean := replaceRE `^\s+` "" . }}
-
+        <!-- line w/ indentation count var-->
         <div class="line" style="--indent: {{ $indent }}ch">{{ $clean | safeHTML }}</div>
       {{ end }}
     {{ end }}
   </div>
+
+<!-- keep for ascii form poetry? -->
 {{ else }}
   <div class="poem poem--raw">{{ $content | safeHTML }}</div>
 {{ end }}
