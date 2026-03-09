@@ -1,6 +1,5 @@
 {{ $arg := .Get 0 }}
 
-
 {{ if eq $arg "home" }}
   <ul>
     {{ $dated := where site.RegularPages "Date.IsZero" false }}
@@ -12,6 +11,40 @@
     </li>
     {{ end }}
   </ul>
+
+{{ else if eq $arg "archive"}}
+  <h2>Living</h2>
+  <ul>
+    {{ $living := where site.RegularPages "Date.IsZero" true }}
+    {{ $living = where $living "Params.title" "!=" "The Archive"}}
+    {{ range $living }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if ne .Section "" }}
+          <small>( {{ .Section | title }} )</small>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+
+  {{ $dated := where site.RegularPages "Date.IsZero" false }}
+  {{ $dated = where $dated "Params.hidden" "!=" true }}
+
+  {{ range $dated.GroupByDate "2006" }}
+    <h2>{{ .Key }}</h2>
+    <ul>
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          {{ .Date.Format "01.02" }} &ndash;
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+          {{ if ne .Section "" }}
+            <small>( {{ .Section | title }} )</small>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
 {{ else }}
   <ul>
     {{ $living := where .Page.RegularPages "Date.IsZero" true }}

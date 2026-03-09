@@ -6,11 +6,6 @@ subtitle: Shoes off please.
 
 - [On Apples](/thoughts/on-apples/)
 
-## Latest Posts
+## Latest
 
 {{< post-list home >}}
-
-<br>
-
-[About](/about/)  | [Archive](/archive/)  
-© 2026

@@ -27,3 +27,9 @@ typographer = true
 [security.funcs]
   getenv = ['^HUGO_', '^CI$', '^CF_PAGES_']
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    noClasses = false
+    lineNos = false
+    guessSyntax = false

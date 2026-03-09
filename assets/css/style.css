@@ -85,6 +85,10 @@ h2 + ul, h2 + ol {
   margin-top: 0.25rem;
 }
 
+li::marker {
+  font-size: 0.85rem;
+}
+
 strong, b { 
   font-weight: 600 
 }
@@ -145,4 +149,10 @@ blockquote {
 
 .poem--wrap .stanza.break {
   height: 1.25rem;
+}
+
+.chroma {
+  font-size: 0.75rem;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
 }
