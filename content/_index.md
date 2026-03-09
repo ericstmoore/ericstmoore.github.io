@@ -1,6 +1,6 @@
 ---
 title: "Eric S. Moore"
-subtitle: Welcome to my website! Shoes off please.
+subtitle: Shoes off please.
 ---
 ## Pinned
 
@@ -9,3 +9,8 @@ subtitle: Welcome to my website! Shoes off please.
 ## Latest Posts
 
 {{< post-list home >}}
+
+<br>
+
+[About](/about/)  | [Archive](/archive/)  
+© 2026

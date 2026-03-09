@@ -123,6 +123,7 @@ nav a {
 blockquote {
   font-size: 0.9rem;
   margin-inline-start: 2rem;
+  margin-inline-end: 0rem;
 }
 
 .poem {

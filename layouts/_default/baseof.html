@@ -14,7 +14,7 @@
           {{ end }}
         {{ end }}
       </title>
-
+      
       {{ $branch := getenv "CF_PAGES_BRANCH" }}
       {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
       {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
