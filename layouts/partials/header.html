@@ -1,8 +1,7 @@
 <header>
   <hr>
   <h1>{{ .Title }}</h1>
-
-  <p class="meta">
+  <p>
     {{ with .Params.subtitle }}
       {{ . }}
       {{ if and $.IsPage $.Date }}&nbsp;&ndash;{{ end }}
@@ -14,6 +13,5 @@
       {{ end }}
     {{ end }}
   </p>
-
   <hr>
 </header>

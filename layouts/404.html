@@ -1,46 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Site.Title }} — 404</title>
+{{ define "title" }}
+{{ .Site.Title }} — 404
+{{ end }}
 
-    {{ $branch := getenv "CF_PAGES_BRANCH" }}
-    {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
-    {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
+{{ define "nav" }}
+<nav><a href="{{ "/" | relURL }}"><<<</a></nav>
+{{ end }}
 
-    <meta name="build-date" content="{{ $buildTime }}">
-    {{ if $commit }}
-    <meta name="commit-hash" content="{{ $commit }}">
-    {{ end }}
+{{ define "main" }}
+<header>
+  <hr>
+  <h1>404</h1>
+  <p>Not Found</p>
+  <hr>
+</header>
 
-    {{ with resources.Get "css/style.css" }}
-      {{ $css := . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    {{ end }}
-  </head>
-
-   {{ if eq $branch "dev" }}
-    <div style="text-align: right;">
-    <b>Dev Preview</b>
-    </div>
-    {{ end }}
-
-  <nav><a href="{{ "/" | relURL }}"><<<</a></nav>
-  <header>
-    
-    <hr>
-    <h1>404</h1>
-    <p>Not Found</p>
-    <hr>
-
-    <body>
-      <div class="poem poem--wrap">
-        <div class="line" style="--indent: 0ch">This is not the page you wanted.</div>
-        <div class="line" style="--indent: 4ch">Turn back. Go home.</div>
-        <div class="line" style="--indent: 0ch"><em>Bad</em> links, they say, are haunted.</div>
-        <div class="line" style="--indent: 4ch">Posts run wild. Pages groan.</div>
-      </div>
-    </body>
-  </header>
-</html>
+<div class="poem poem--wrap">
+  <div class="line" style="--indent: 0ch">This is not the page you wanted.</div>
+  <div class="line" style="--indent: 4ch">Turn back. Go home.</div>
+  <div class="line" style="--indent: 0ch"><em>Bad</em> links, they say, are haunted.</div>
+  <div class="line" style="--indent: 4ch">Posts run wild. Pages groan.</div>
+</div>
+{{ end }}

@@ -1,54 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>
-        {{ block "title" . }}
-          {{ if .IsHome }}
-            Eric S. Moore
-          {{ else if or .IsSection .IsPage }}
-            ESM — {{ .Title }}
-          {{ else }}
-            {{ .Site.Title }}
-          {{ end }}
+    <title>
+      {{ block "title" . }}
+        {{ if .IsHome }}
+          {{ .Site.Title }}
+        {{ else }}
+          ESM — {{ .Title }}
         {{ end }}
-      </title>
+      {{ end }}
+    </title>
       
-      {{ $branch := getenv "CF_PAGES_BRANCH" }}
-      {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
-      {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
+    {{ $branch := getenv "CF_PAGES_BRANCH" }}
+    {{ $buildTime := now.Format "2006-01-02T15:04:05Z07:00" }}
+    {{ $commit := getenv "CF_PAGES_COMMIT_SHA" }}
 
-      <meta name="build-date" content="{{ $buildTime }}">
-      {{ if $commit }}
-      <meta name="commit-hash" content="{{ $commit }}">
-      {{ end }}
+    <meta name="build-date" content="{{ $buildTime }}">
+    {{ if $commit }}
+    <meta name="commit-hash" content="{{ $commit }}">
+    {{ end }}
 
-      {{ with resources.Get "css/style.css" }}
-      {{ $css := . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-      {{ end }}
+    {{ with resources.Get "css/style.css" }}
+    {{ $css := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ end }}
 
-      {{ with resources.Get "css/syntax.css" }}
-      {{ $syntax := . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $syntax.RelPermalink }}">
-      {{ end }}
+    {{ with resources.Get "css/syntax.css" }}
+    {{ $syntax := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $syntax.RelPermalink }}">
+    {{ end }}
+
+    {{ with resources.Get "css/fonts.css" }}
+    {{ $fonts := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
+    {{ end }}
   </head>
 
-  <body>
+  <body class="{{ .Kind }}">
     {{ if eq $branch "dev" }}
     <div style="text-align: right;">
     <b>Dev Preview</b>
     </div>
     {{ end }}
 
+    {{ block "nav" . }}
     <nav>
-      {{ $current := .CurrentSection.Section }}
+      {{ $current := .Section }}
       <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page"{{ end }}>Home</a>
       <a href="{{ "/ink/" | relURL }}" {{ if eq $current "ink" }}class="active-page"{{ end }}>Ink</a>
       <a href="{{ "/works/" | relURL }}" {{ if eq $current "works" }}class="active-page"{{ end }}>Works</a>
       <a href="{{ "/thoughts/" | relURL }}" {{ if eq $current "thoughts" }}class="active-page"{{ end }}>Thoughts</a>
     </nav>
+    {{ end }}
 
     <main>
       {{ block "main" . }}{{ end }}
