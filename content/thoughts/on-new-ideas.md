@@ -2,6 +2,7 @@
 title: On New Ideas
 date: 2026-03-08
 ---
+
 For nearly a year, this website has been gathering dust, only growing by a single book review and a page [on apples](/thoughts/on-apples/). Of the latter, to be fair, I'm very proud, and I have plans to continue it as long as apples bless the Earth. But for all my talk of sharing, I've been far too quiet.
 
 On the other hand, I have no lack of ideas. There are a few exciting projects in the works that I can't wait to share. Countless more bounce around my skull. I'm writing this now to throw some out there and give an update on what I've been doing to make my website better equipped.
