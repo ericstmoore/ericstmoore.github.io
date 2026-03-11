@@ -4,7 +4,7 @@ subtitle: Shoes off please.
 ---
 ## Pinned
 
-- [On Apples](/thoughts/on-apples/)
+- [On Apples](/apples/reviews/)
 
 ## Latest
 

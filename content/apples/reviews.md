@@ -1,7 +1,6 @@
 ---
 title: On Apples
 subtitle: "A Cultivar Criticism"
-hidden: true
 ---
 
 **Juici**  
@@ -169,7 +168,7 @@ hidden: true
   
 <br>
 
-[See Rankings](/thoughts/apple-rankings/)
+[See Rankings](/apples/rankings/)
 
 {{< break >}}
 
