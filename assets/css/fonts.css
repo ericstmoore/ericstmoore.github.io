@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Adobe Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/agaramondpro-regular.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Adobe Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/agaramondpro-italics.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Adobe Garamond';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/agaramondpro-semibold.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Adobe Garamond';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/assets/fonts/agaramondpro-semibolditalic.woff2') format('woff2');
+  font-display: swap;
+}  

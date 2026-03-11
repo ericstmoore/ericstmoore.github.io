@@ -1,0 +1,15 @@
+{{ $img := .Page.Resources.GetMatch .Destination }}
+
+{{ if $img }}
+<figure>
+  <img src="{{ $img.RelPermalink }}"
+       width="{{ $img.Width }}"
+       height="{{ $img.Height }}"
+       alt="{{ .Text }}"
+       loading="lazy">
+       
+  {{ with .Title }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>
+{{ end }}
