@@ -3,14 +3,18 @@ languageCode = 'en-us'
 title = 'Eric S. Moore'
 
 disableKinds = ["sitemap"]
-
 ignoreLogs = ['warning-goldmark-raw-html']
 
-[markup.goldmark.renderer]
-unsafe= true
-
-[markup.goldmark.extensions]
-typographer = true
+[markup]
+  [markup.highlight]
+    codeFences = true
+    noClasses = false
+    lineNos = false
+    guessSyntax = false
+  [markup.goldmark.renderer]
+    unsafe= true
+  [markup.goldmark.extensions]
+    typographer = true
 
 [caches]
   [caches.images]
@@ -27,9 +31,3 @@ typographer = true
 [security.funcs]
   getenv = ['^HUGO_', '^CI$', '^CF_PAGES_']
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    noClasses = false
-    lineNos = false
-    guessSyntax = false
