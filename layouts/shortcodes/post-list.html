@@ -1,45 +1,38 @@
 {{ $arg := .Get 0 }}
+ 
+{{ $pages := site.RegularPages }}
+{{ if not (or (eq $arg "home") (eq $arg "archive")) }}
+  {{ $pages = .Page.RegularPages }}
+{{ end }}
+
+{{ $dated := where $pages "Date.IsZero" false }}
+{{ $dated = where $dated "Params.hidden" "!=" true }}
+{{ $living := where $pages "Date.IsZero" true }}
 
 {{ if eq $arg "home" }}
   <ul>
-    {{ $dated := where site.RegularPages "Date.IsZero" false }}
-    {{ $dated = where $dated "Params.hidden" "!=" true }}
     {{ range first 5 $dated.ByDate.Reverse }}
-    <li>
-    {{ .Date.Format "2006.01.02" }} &ndash;
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
+      <li>{{ .Date.Format "2006.01.02" }} &ndash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 
-{{ else if eq $arg "archive"}}
+{{ else if eq $arg "archive" }}
   <h2>Living</h2>
   <ul>
-    {{ $living := where site.RegularPages "Date.IsZero" true }}
-    {{ $living = where $living "Params.title" "!=" "The Archive"}}
-    {{ range $living }}
+    {{ range where $living "Params.title" "!=" "The Archive" }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ if ne .Section "" }}
-          <small>( {{ .Section | title }} )</small>
-        {{ end }}
       </li>
     {{ end }}
   </ul>
-
-  {{ $dated := where site.RegularPages "Date.IsZero" false }}
-  {{ $dated = where $dated "Params.hidden" "!=" true }}
-
   {{ range $dated.GroupByDate "2006" }}
     <h2>{{ .Key }}</h2>
     <ul>
       {{ range .Pages.ByDate.Reverse }}
         <li>
           {{ .Date.Format "01.02" }} &ndash;
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-          {{ if ne .Section "" }}
-            <small>( {{ .Section | title }} )</small>
-          {{ end }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }}
         </li>
       {{ end }}
     </ul>
@@ -47,21 +40,12 @@
 
 {{ else }}
   <ul>
-    {{ $living := where .Page.RegularPages "Date.IsZero" true }}
     {{ $living = where $living "Params.hidden" "!=" true }}
     {{ range $living }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
-
-    {{ $dated := where .Page.RegularPages "Date.IsZero" false }}
-    {{ $dated = where $dated "Params.hidden" "!=" true }}
     {{ range $dated.ByDate.Reverse }}
-      <li>
-        {{ .Date.Format "2006.01.02" }} &ndash;
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
+      <li>{{ .Date.Format "2006.01.02" }} &ndash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 {{ end }}

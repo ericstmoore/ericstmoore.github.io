@@ -1,7 +1,7 @@
 ---
 title: The Archive
 subtitle: "2025 – 2026"
-draft: true
+# draft: true
 ---
 
 {{< post-list archive >}}
