@@ -27,6 +27,21 @@ p {
   hyphens: auto;
 }
 
+.bookish p {
+  margin: 0 auto;
+  text-indent: 1.5rem;
+}
+
+.bookish p:first-of-type,
+.bookish .section-break + p,
+.bookish br + p { 
+  text-indent: 0;
+}
+
+.bookish br + p {
+  margin-top: 0.5rem;
+}
+
 /* don't justify text on small screens */
 @media (max-width: 600px) { p {
     text-align: left;
@@ -35,8 +50,7 @@ p {
 
 /* used for titles only */
 header h1 {
-  margin-top: 1rem;
-  margin-bottom: 0rem;
+  margin: 1rem 0 0;
   font-weight: 600;
   line-height: 2.5rem;
 }
@@ -80,6 +94,11 @@ strong, b {
 em, i {
   font-style: italic;
   font-weight: 400;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+  letter-spacing: 0.05rem;
 }
 
 .section-break {

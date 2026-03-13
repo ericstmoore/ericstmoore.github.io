@@ -13,7 +13,7 @@
   <div class="poem poem--wrap">
     {{ range $lines }}
       <!-- trim whitespace -->
-      {{ $trimmed := strings.TrimSpace . }} 
+      {{ $trimmed := strings.TrimSpace . }}
       {{ if eq $trimmed "" }}
         <div class="stanza break"></div>
       {{ else }}
@@ -31,7 +31,8 @@
       {{ end }}
     {{ end }}
   </div>
-
+  
+  
 <!-- keep for ascii form poetry? -->
 {{ else }}
   <div class="poem poem--raw">{{ $content | safeHTML }}</div>

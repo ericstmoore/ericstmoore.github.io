@@ -30,4 +30,3 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [security.funcs]
   getenv = ['^HUGO_', '^CI$', '^CF_PAGES_']
-

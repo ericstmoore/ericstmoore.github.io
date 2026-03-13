@@ -1,4 +1,7 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
+  {{ $bookish := .Params.bookish }}
+  <div class ="{{ if $bookish }}bookish{{ end }}">
   {{ .Content }}
+  </div>
 {{ end }}
