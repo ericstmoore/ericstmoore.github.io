@@ -29,7 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ========== pagagraph ========== */
+/* ========== paragraph ========== */
 
 p {
   text-align: justify;
@@ -46,7 +46,7 @@ p {
 
 /* bookish (indented except first) */
 .bookish p {
-  margin: 0 auto;
+  margin: 0;
   text-indent: 1.5rem;
 }
 
@@ -68,6 +68,12 @@ p {
   letter-spacing: .1rem;
 }
 
+hr {
+  border: none;
+  background-color: var(--fg);
+  height: 1px;
+}
+
 /* ========== headings ========== */
 
 header h1 {
@@ -87,12 +93,8 @@ h3 { font-size: 1rem; }
 
 /* spacing */
 
-:is(
-  p,
-  .poem,
-  .highlight,
-  hr
-) + :is(h2,h3) {
+:is(p, .poem, .highlight, hr ) 
++ :is(h2,h3) {
   margin-top: 1.5rem;
 }
 
@@ -204,7 +206,6 @@ figure {
 figure img {
   width: 100%;
   height: auto;
-  max-width: 100%;
 }
 
 figcaption {
