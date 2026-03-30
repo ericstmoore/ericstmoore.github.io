@@ -36,6 +36,8 @@
     {{ $fonts := . | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
     {{ end }}
+    
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
   </head>
 
   <body class="{{ .Kind }}">
