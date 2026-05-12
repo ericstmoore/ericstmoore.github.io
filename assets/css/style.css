@@ -1,15 +1,22 @@
 /* ========== globals ========== */
 
-:root { /* Light Mode */
+:root {
+  /* Light Mode */
   --bg: #f5f5f5;
   --fg: #1b1b1b;
   --link: #057861;
   --link-active: #013429;
 }
 
-html { font-size: 21px; } /* base for rem */
+html {
+  font-size: 21px;
+}
+
+/* base font size for rem */
 @media (max-width: 600px) {
-  html { font-size: 20px; }
+  html {
+    font-size: 20px;
+  }
 }
 
 /* ========== body ========== */
@@ -22,9 +29,9 @@ body {
   color: var(--fg);
   background: var(--bg);
 
-  font: 1rem/1.5 'Adobe Garamond','Garamond','Times New Roman',Times,serif;
+  font: 1rem/1.5 'Adobe Garamond', 'Garamond', 'Times New Roman', Times, serif;
 
-  font-feature-settings: "liga","kern","onum";
+  font-feature-settings: "liga", "kern", "onum";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -50,15 +57,13 @@ p {
   text-indent: 1.5rem;
 }
 
-.bookish :is(
-  p:first-of-type,
+.bookish :is(p:first-of-type,
   .section-break + p,
-  br + p )
-{
+  br + p) {
   text-indent: 0;
 }
 
-.bookish br + p {
+.bookish br+p {
   margin-top: .5rem;
 }
 
@@ -82,43 +87,50 @@ header h1 {
   line-height: 2.5rem;
 }
 
-h2, h3 {
+h2,
+h3 {
   line-height: 1.25;
   margin-bottom: 0;
   font-weight: 600;
 }
 
-h2 { font-size: 1.15rem; }
-h3 { font-size: 1rem; }
+h2 {
+  font-size: 1.15rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
 
 /* spacing */
 
-:is(p, .poem, .highlight, hr ) 
-+ :is(h2,h3) {
+:is(p, .poem, .highlight, hr)+ :is(h2, h3) {
   margin-top: 1.5rem;
 }
 
 /* home page spacing */
 
-.home :is(h2,h3) + :is(ul,ol) {
+.home :is(h2, h3)+ :is(ul, ol) {
   margin-top: .25rem;
 }
 
-.home :is(ul,ol) + :is(h2,h3) {
+.home :is(ul, ol)+ :is(h2, h3) {
   margin-top: .75rem;
 }
 
-.home :is(ul,ol) {
+.home :is(ul, ol) {
   margin-bottom: 0;
 }
 
 /* ========== text style ========== */
 
-strong, b {
+strong,
+b {
   font-weight: 600;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
   font-weight: 400;
 }
@@ -150,6 +162,10 @@ nav a {
   margin-right: 1.25rem;
 }
 
+.nav-sep {
+  display: none;
+}
+
 /* ========== misc idk ========== */
 
 blockquote {
@@ -178,7 +194,7 @@ li::marker {
   margin: 0;
   white-space: pre-wrap;
 
-  padding-left: calc(var(--indent,0ch) + 1ch);
+  padding-left: calc(var(--indent, 0ch) + 1ch);
   text-indent: -1ch;
 }
 
