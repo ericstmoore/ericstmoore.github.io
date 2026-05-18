@@ -1,6 +1,6 @@
 ---
 title: Thoughts
-subtitle: "Everything Else:"
+subtitle: "On Everything:"
 ---
 
 {{< post-list >}}
