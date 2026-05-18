@@ -32,7 +32,7 @@
         <li>
           {{ .Date.Format "01.02" }} &ndash;
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }}
+          <!-- {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }} -->
         </li>
       {{ end }}
     </ul>
