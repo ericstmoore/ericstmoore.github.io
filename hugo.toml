@@ -1,5 +1,5 @@
 baseURL = 'https://esmoore.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Eric S. Moore'
 
 disableKinds = ["sitemap"]
