@@ -95,7 +95,7 @@ h3 {
 }
 
 h2 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 h3 {
@@ -213,6 +213,7 @@ li::marker {
   overflow-x: auto;
 }
 
+
 /* ========== math ========== */
 
 .katex {
@@ -226,7 +227,10 @@ figure {
 }
 
 figure img {
-  width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: auto;
   height: auto;
 }
 
