@@ -21,7 +21,7 @@
   <ul>
     {{ range where $living "Params.title" "!=" "The Archive" }}
       <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .RelPermalink}}</a>
       </li>
     {{ end }}
   </ul>
@@ -31,7 +31,7 @@
       {{ range .Pages.ByDate.Reverse }}
         <li>
           {{ .Date.Format "01.02" }} &ndash;
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}">{{ .RelPermalink}}</a>
           <!-- {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }} -->
         </li>
       {{ end }}
