@@ -105,7 +105,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 /* spacing */
@@ -177,7 +177,7 @@ nav a {
 
 blockquote {
   font-size: .9rem;
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 2.5rem;
 }
 
 li::marker {
