@@ -1,11 +1,7 @@
 ---
 Title: Resources
-Subtitle: 2026.05
+Subtitle: For Aspiring Penman
 ---
-
-*A growing collection of useful resources for penmanship.*
-
-{{< break >}}
 
 ### [{{< sc >}}Iampeth{{< /sc >}}](https://www.iampeth.com)
 
@@ -78,3 +74,7 @@ Hand.
 >"My blog is intended as an educational resource for those interested in
 pursuing this fascinating period of American Penmanship."
 [*](https://www.inpursuitofpenmanship.com/about-me)
+
+{{< break >}}
+
+*Updated 2026.05*
