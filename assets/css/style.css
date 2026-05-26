@@ -61,16 +61,18 @@ p {
 .bookish p {
   margin: 0;
   text-indent: 1.5rem;
+  line-height: 1.7rem;
+
 }
 
-.bookish :is(p:first-of-type,
-  .section-break + p,
-  br + p) {
+.bookish p:first-of-type,
+.bookish :is(.section-break + p,
+  br + p, :is(h2, h3) + p) {
   text-indent: 0;
 }
 
-.bookish br+p {
-  margin-top: .5rem;
+.bookish :is(h2, h3, br)+p {
+  margin-top: 1rem;
 }
 
 .section-break {
@@ -101,17 +103,13 @@ h3 {
 }
 
 h2 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
 }
 
 h3 {
-  font-size: 1.05rem;
-}
-
-/* spacing */
-
-:is(p, .poem, .highlight, hr)+ :is(h2, h3) {
-  margin-top: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1.75rem;
 }
 
 /* home/section page spacing */
@@ -120,13 +118,14 @@ h3 {
   margin-top: .25rem;
 }
 
-
 :is(.home, .section) :is(ul, ol)+ :is(h2, h3) {
-  margin-top: .75rem;
+  margin-top: .7rem;
 }
 
-:is(.home, .section) :is(ul, ol) {
-  margin-bottom: 0;
+/* BUG: Does not work for bookish due to div. When should a post ever start
+with a heading though?? */
+:is(header, hr)+ :is(h2, h3) {
+  margin-top: 1rem;
 }
 
 /* ========== text style ========== */
@@ -171,6 +170,10 @@ nav a {
 
 .nav-sep {
   display: none;
+}
+
+.footnotes {
+  font-size: 0.9rem;
 }
 
 /* ========== misc idk ========== */
