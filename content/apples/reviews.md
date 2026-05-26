@@ -225,9 +225,9 @@ red grape, and the aftertaste lingers pleasantly. (2025.10.13)
 7.5/10
 
 - While at first I found the Honeycrisp overrated, underwhelming, and not as
-sweet as the name would imply, Later honeycrisps have changed my mind. A solid
+sweet as the name would imply, Later Honeycrisps have changed my mind. A solid
 sweet-sour apple, and mostly consistent in quality. Only its basic flavor keeps
-the honeycrisp from achieving a greater ranking. (2025.10.06)
+the Honeycrisp from achieving a greater ranking. (2025.10.06)
 
 **Cortland:**  
 5.75/10
@@ -348,7 +348,7 @@ stable staple. Extra points for browning resistance. (2025.09.19)
 sometimes refrigerated. Unless otherwise noted, all specimens were purchased
 from grocery stores in Texas.*
 
-The birth of this page may be in response to judgement of my once-uneducated
+The birth of this page may be in response to judgment of my once-uneducated
 apple preferences. Never should the apple consumer consume apples blindly.
 Genuine apple criticism is the only true path to a riper age.
 
