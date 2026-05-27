@@ -10,3 +10,7 @@ subtitle: Shoes off please.
 ## Latest
 
 {{< post-list home >}}
+
+## Other
+
+- [About](/about)
