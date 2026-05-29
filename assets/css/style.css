@@ -87,6 +87,12 @@ hr {
   height: 1px;
 }
 
+sup {
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
 /* ========== headings ========== */
 
 header h1 {
@@ -176,6 +182,10 @@ nav a {
   font-size: 0.9rem;
 }
 
+.footnotes hr {
+  margin-top: 3rem;
+}
+
 /* ========== misc idk ========== */
 
 blockquote {
@@ -239,12 +249,19 @@ figure {
 figure img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  max-width: 90%;
   width: auto;
   height: auto;
 }
 
+@media (max-width: 600px) {
+  figure img {
+    max-width: 100%;
+  }
+}
+
 figcaption {
+  margin-top: 0.25rem;
   text-align: center;
   font-style: italic;
   font-size: .9rem;
