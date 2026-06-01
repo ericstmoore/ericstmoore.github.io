@@ -15,6 +15,15 @@ has been incredibly valuable and enjoyable. This is an account of my first
 attempts, and could be followed as a step-by-step guide to getting started with
 this art.
 
+<!--toc:start-->
+- [Part 1: Harass the Waterfowl](#part-1-harass-the-waterfowl)
+- [Part 2: Get Dirty](#part-2-get-dirty)
+- [Part 3: Sand in the Oven](#part-3-sand-in-the-oven)
+- [Part 4: Don't Play with Knives](#part-4-dont-play-with-knives)
+- [Part 5: Write Poorly](#part-5-write-poorly)
+- [Next Steps and Further Reading](#next-steps-and-further-reading)
+<!--toc:end-->
+
 ## Part 1: Harass the Waterfowl
 
 There happens to be an infestation of Canada Geese in my local park. Normally,
@@ -109,19 +118,56 @@ slit in Part 4, the now brittle feather should naturally split along its length.
 
 ![Feathers Curing](quills-curing.jpg "Curing three quills")
 
-<!-- mention moulding pg. 19 [^3]-->
+While the feather is still warm from the sand but no longer curing, it may
+be possible to reshape the barrel to be larger and flatter by inserting a
+metal rod or hook.[^3] This is a component of Norman Brown's modern 'Dutching'
+technique. I have yet to make an attempt, but it is high on my list of things to
+try, especially since goose feathers tend to be elliptical with the minor axis
+parallel to the writing edge. This limits the maximum width of the nib.
 
 ## Part 4: Don't Play with Knives
+
+Now that we have dried and hardened our feather, we only need to cut it into a
+usable quill pen. 
+
+The tool of choice should be a small knife, thin and sharp. Ideally, we could use a dedicated pen knife, like artisans in the past. You can find vintage or antique ones if lucky, or shop custom made from [Yoke Pen Company](https://www.yokepencompany.com/collections/quill-knives) and such others. A well-made pen knife has a large ergonomic grip, a curved blade, and one rounded outer edge for smoother scooping cuts.[^4] For me, and actually the preference of Paul Antonio, an X-Acto knife is a decent substitution, and saves time otherwise spent sharpening.[^5]
+
+Knife in hand, the first step is to cut a slit for ink flow. At this point
+we may be grateful for our hard work at the oven, as the brittle feather should
+practically split itself. To determine where the slit should be placed, we need to orient the feather correctly and see where it lays in the hand. On the bottom side of the quill will be a divot running the length of the shaft. Hold the quill with that side facing down as if you were to write. Next, we want to insert our knife into the barrel with the blade facing the top edge. Pushing the base of the blade into the upper edge of the quill using the leverage against the bottom edge, split the feather. If it cracks easily, straight, and clean this is our sign that the tempering was done well.
+
+You can also skip this step and add the slit with a different method after forming the shape of the pen.
+
+![Donald Jackson Quill Cutting Diagram [^6]](quill-diagram-transparent.png
+"Jackson illustrates the shape and proportion of the three major cuts
+  <sup id='fnref:6'>
+    <a href='#fn:6' class='footnote-ref' role='doc-noteref'>6</a>
+  </sup>
+")
 
 ## Part 5: Write Poorly
 
 ![Results](quill-fin.jpg "It works---some line variation")
 
+## Next Steps and Further Reading
+
+Dutching? Order of cutting and curing, alternate methods (guillotine).
+
 <!-- footnotes -->
 
-[^1]: Donald Jackson, "Preparation of Quills and Reeds," in *The Calligrapher's
-Handbook*, ed. Heather Child (1986), 15--16.
+[^1]: Donald Jackson, "Preparation of Quills and
+Reeds,"
+in *The Calligrapher's Handbook*, ed. Heather Child (1986), 15--16.
 
 [^2]: Jackson, 17.
 
 [^3]: Jackson, 19.
+
+[^4]: "Quills and Quill Knives," Patricia Lovett MBE, <br>
+[https://www.patricialovett.com/quills-and-quill-knives/](https://www.patricialovett.com/quills-and-quill-knives/).
+
+[^5]: PAScribe, "How to cut a Quill," December 1, 2015, YouTube, 2:43--3:17,<br>
+[https://www.youtube.com/watch?v=QW3To0iuTpw&t=445](https://www.youtube.com/watch?v=QW3To0iuTpw).
+
+[^6]: Jackson, illus. 10, 14--15.
+[(non-transparent)](./quill-diagram-jackson.jpg)
