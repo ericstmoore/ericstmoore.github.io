@@ -1,4 +1,4 @@
-/* ========== globals ========== */
+/* ========== main properties ========== */
 
 :root {
   /* Light Mode */
@@ -6,12 +6,6 @@
   --fg: #1b1b1b;
   --link: #057861;
   --link-active: #013429;
-
-  /* Dark Mode (based on https://codeberg.org/ficd/ashen/) */
-  /* --bg: #121212; */
-  /* --fg: #b4b4b4; */
-  /* --link: #B14242; */
-  /* --link-active: #DF6464; */
 }
 
 html {
@@ -35,7 +29,7 @@ body {
   color: var(--fg);
   background: var(--bg);
 
-  font: 1rem/1.5 'Adobe Garamond', 'Garamond', 'Times New Roman', Times, serif;
+  font: 1rem/1.5 'Adobe Garamond', Garamond, 'Times New Roman', Times, serif;
 
   font-feature-settings: "liga", "kern", "onum";
   text-rendering: optimizeLegibility;
@@ -66,8 +60,9 @@ p {
 }
 
 .bookish p:first-of-type,
-.bookish :is(.section-break + p,
-  br + p, :is(h2, h3) + p) {
+.bookish .section-break+p,
+.bookish br+p,
+.bookish :is(h2, h3)+p {
   text-indent: 0;
 }
 
