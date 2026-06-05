@@ -1,0 +1,6 @@
+<!-- for superscript footnote links where markdown isn't parsed,
+i.e in figure caption -->
+{{ $n := .Get 0 }}
+<sup id='fnref:{{ $n }}'>
+  <a href='#fn:{{ $n }}' class='footnote-ref' role='doc-noteref'>{{ $n }}</a>
+</sup>
