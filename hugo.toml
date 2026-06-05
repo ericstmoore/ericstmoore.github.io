@@ -20,6 +20,10 @@ ignoreLogs = ['warning-goldmark-raw-html']
             [markup.goldmark.extensions.passthrough.delimiters]
               block = [['\[', '\]'], ['$$', '$$']]
               inline = [['\(', '\)']]
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
