@@ -13,11 +13,11 @@ and fascinating. This is an account of my first attempts nearly a year ago, and
 could also serve as a guide to getting started with this art.
 
 <!--toc:start-->
-- [Part 1: Harassing Waterfowl](#part-1-harass-the-waterfowl)
+- [Part 1: Harass the Waterfowl](#part-1-harass-the-waterfowl)
 - [Part 2: Preparation](#part-2-preparation)
 - [Part 3: Clarification](#part-3-clarification)
 - [Part 4: Cutting](#part-4-cutting)
-- [Next Steps & Further Reading](#next-steps--further-reading)
+- [Next Steps & Further Reading](#next-steps-further-reading)
 <!--toc:end-->
 
 ## Part 1: Harass the Waterfowl
