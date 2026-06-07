@@ -4,33 +4,31 @@ Subtitle: Sourcing, Curing & Cutting
 Date: 2026-05-29
 ---
 
-Many historical scripts and modern variants owe much of their design to the
-quill pen, its techniques, and capabilities. Indeed, the metal pens used today
-are also based on the quill pen. Those interested in learning penmanship from a
-historical perspective ought to explore the use of quills in their studies.
-
-With this reason in mind, I took up the challenge of learning to make quills
-from scratch last summer. It was not easy, nor yet very successful, but it has
-been incredibly valuable and enjoyable. This is an account of my first attempts
-and could be followed as a step-by-step guide to getting started with this art.
+Many historical scripts and modern variants owe much of their form and technique
+to the quill pen and its capabilities. With this in mind, I took up the
+challenge of learning to make quills from scratch last summer. It was not easy,
+nor yet very successful, but it has been incredibly valuable and enjoyable. If
+you have any interest in historical penmanship, working with quills is relevant
+and fascinating. This is an account of my first attempts nearly a year ago, and
+could also serve as a guide to getting started with this art.
 
 <!--toc:start-->
-- [Part 1: Harass the Waterfowl](#part-1-harass-the-waterfowl)
-- [Part 2: Get Dirty](#part-2-get-dirty)
-- [Part 3: Sand in the Oven](#part-3-sand-in-the-oven)
-- [Part 4: Don't Play with Knives](#part-4-dont-play-with-knives)
+- [Part 1: Harassing Waterfowl](#part-1-harass-the-waterfowl)
+- [Part 2: Preparation](#part-2-preparation)
+- [Part 3: Clarification](#part-3-clarification)
+- [Part 4: Cutting](#part-4-cutting)
 - [Next Steps & Further Reading](#next-steps--further-reading)
 <!--toc:end-->
 
 ## Part 1: Harass the Waterfowl
 
-There is an infestation of Canada Geese in my local park. Normally, this would
-be something to groan about. However, goose feathers are widely regarded as
-the prime source for quills. Geese molt annually in the summer, dropping their
-flight feathers. The few most external of these, known as the primaries, are
-what we want for quills due to their size and strength.[^1] A couple of trips
-around the ponds in the blistering Texas heat were enough to stock me with
-around one hundred feathers to work with.
+There is an infestation of Canada Geese in my local park. Normally, I would
+complain. However, goose feathers are widely regarded as the prime source for
+quills. Geese molt annually in the summer, dropping their flight feathers. The
+few most external of these, known as the primaries, are what we want for quills
+due to their size and strength.[^1] A couple of trips around the ponds in the
+blistering Texas heat were enough to stock me with around one hundred feathers
+to work with.
 
 ![Collected Feathers](quills-start.jpg "Feathers before starting")
 
@@ -50,7 +48,7 @@ buying the pre-cut or pre-cured feathers, since you won't be able to control
 the process. Turkey feathers are also used for quills and should be available
 online, though I haven't used them.
 
-## Part 2: Get Dirty
+## Part 2: Preparation
 
 If you're collecting feathers from molting birds in the park, you may want
 to clean your feathers before continuing. Since I collected so many, I washed
@@ -62,22 +60,21 @@ To avoid making unwieldy quills, I cut away some of the barb end, leaving around
 eight inches. Wire cutters gave me the cleanest cuts. I then trimmed the end
 of the barrel enough to expose the inside of the feather for cleaning. With a
 small crochet hook or similar implement, you can scoop out the inner membrane of
-the feather.[^2]
+the feather.
 
-The next step is to remove the barbs of the feather. Although a voluminous
-and flowing quill is appealing, the barbs, especially those near the hand,
-can be a nuisance. If you want to keep some barbs anyway, you should at least
-remove anything near your grip. It is common to see one side of the feather
-clipped away, or a small amount of barbs left around the top of the feather.
-They can sometimes be pulled away easily, though you may need some assistance
-with a knife. I found that as I tore away the barbs, I would sometimes pull a
-'hangnail' into the barrel. To keep it clean for writing, snip the strand with a
-knife when this happens.
+The next step is to remove the barbs. Although a voluminous and flowing quill
+is appealing, the barbs, especially those near the hand, can be a nuisance. If
+you want to keep some barbs anyway, you should at least remove anything near
+your grip. It is common to see one side of the feather clipped away, or a small
+amount of barbs left around the top of the feather. They can sometimes be pulled
+away easily, though you may need some assistance with a knife. I found that as
+I tore away the barbs, I would sometimes pull a 'hangnail' into the barrel. To
+keep it clean for writing, snip the strand with a knife when this happens.
 
 ![Cleaned and Prepped Feathers](quills-prepped.jpg "Cleaned and prepped
 feathers")
 
-## Part 3: Sand in the Oven
+## Part 3: Clarification
 
 So far, it might seem that making a quill is cake. The curing process, sometimes
 called clarification, changes things.
@@ -89,24 +86,24 @@ harder and more brittle. One easy method involves leaving the quill to dry
 naturally in the sun or a warm place. A quicker and more systematic method
 called tempering involves inserting the feathers into hot sand for up to a few
 minutes. There are other methods, notably dutching, which uses a heated metal
-rod inserted within the barrel, but tempering with hot sand is what I think is
-more accessible.
+rod inserted within the barrel, but tempering with hot sand is what was most
+accessible for me and the most common.
 
 Before heating the sand, I soaked the quills in a cup of water the night before.
 I read that this is necessary for the tempering to work well, but I haven't
 tested this.[^2]
 
 Donald Jackson, whose excellent guide I've followed, recommends using the finest
-possible sand. I had moderate success with a coarse gardening sand. Two to three
-inches in a shallow dish or pot on the stove or in the oven, respectively, works
-well. Use pure metal cookware without coatings, since these may burn from the
-dry heat. It does not smell pleasant. I heated the sand to around 300°F in an
-aluminum dish in the oven.
+possible sand. I had moderate success with a coarse gardening sand anyway.
+Two to three inches in a shallow dish or pot on the stove or in the oven,
+respectively, works well. Use pure metal cookware without coatings, since these
+may burn from the dry heat. It does not smell pleasant. I heated the sand to
+around 300°F in an aluminum dish in the oven. 
 
-The soaking feathers should be removed and dried. Cut a small (1 cm long) angled
-opening into the end of the barrel to create a scoop. This will make it easier
-to funnel sand into the feather. You may want to use a sharp knife for precision
-instead of the wire cutters (more on knives in Part 4).
+The soaking feathers should be removed and dried. Cut a small (around 1 cm long)
+angled opening into the end of the barrel to create a scoop. This will make it
+easier to funnel sand into the feather. You may want to use a sharp knife for
+precision instead of the wire cutters (more on knives in Part 4).
 
 With the hot sand ready, use a spoon to fill the inside of the feather, then
 insert the barrel into the sand. At 300°, I kept the feathers under the sand for
@@ -117,20 +114,20 @@ slit in Part 4, the now brittle feather should naturally split along its length.
 
 ![Feathers Curing](quills-curing.jpg "Curing three quills")
 
-While the feather is still warm from the sand but no longer curing, it may
-be possible to reshape the barrel to be larger and flatter by inserting a
-metal rod or hook.[^3] This is a component of Norman Brown's modern 'Dutching'
-technique. I have yet to make an attempt, but it is high on my list of things to
-try, especially since goose feathers tend to be elliptical with the minor axis
-parallel to the writing edge. This limits the maximum width of the nib.
+While the feather is still warm from the sand, it may be possible to reshape the
+barrel to be larger and flatter by inserting a metal rod or hook.[^3] This is
+a component of Norman Brown's modern 'Dutching' technique. I have yet to make
+an attempt, but it is high on my list of things to try, especially since goose
+feathers tend to be elliptical with the minor axis parallel to the writing edge.
+This limits the maximum width of the nib.
 
-## Part 4: Don't Play with Knives
+## Part 4: Cutting
 
 Now that we have dried and hardened our feather, we only need to cut it into a
 usable quill pen.
 
 The tool of choice should be a small knife, thin and sharp. Ideally, we
-could use a dedicated pen knife, like artisans in the past. You can find
+could use a dedicated pen knife, like masters in the past. You can find
 vintage or antique ones if lucky, or shop custom-made from [Yoke Pen
 Company](https://www.yokepencompany.com/collections/quill-knives) and others. A
 well-made pen knife has a large ergonomic grip, a curved blade, and one rounded
@@ -151,7 +148,7 @@ cracks easily, straight, and clean, this is our sign that the tempering was
 done well.[^6]
 
 You can also skip this step and add the slit with a different method after
-forming the shape of the pen. I haven't yet decided if I prefer one method.
+forming the shape of the pen. I haven't yet decided if I prefer one method to the other.
 
 Continuing to form the shape of the quill, we will make three main cuts. When
 I was learning these cuts, Jackson's guide was extremely helpful, so I'll be
@@ -161,21 +158,22 @@ because I can't do it well enough yet!
 The first cut is a large scooping cut from the underside of the pen. Start
 back around an inch and a half from the tip of the feather and cut down and
 out through the length of the barrel. Observe the shape in the diagram, how the
-scoop quickly levels out and goes straight to the end. I have been doing this
-as a push cut, but it could also be done as a pull. Jackson describes using the
-latter, but it seems to me this might be more difficult to keep straight, though
-perhaps more controlled. You could also make the cut straighter at first and
-pare material away in multiple cuts to get the right shape. In any case, the
-scoop is probably not going to make or break the quill, though the nib will.
+scoop quickly levels out and then continues straight to the end. I have been
+doing this as a push cut, but it could also be done as a pull. Jackson describes
+using the latter, but it seems to me this might be more difficult to keep
+straight, though perhaps more controlled. You could also make the cut straighter
+at first and pare material away in multiple cuts to get the right shape. In any
+case, the scoop is probably not going to make or break the quill, though the
+rest will.
 
 ![Jackson Scoop Cut Diagram[^7]](quill-diagram-scoop.png
 "The scoop cut {{< fn 7 >}}")
 
 The next goal is to form the shoulders of the pen one at a time. The cut should
 begin around one-fourth of the previous cut's length from the tip. With a paring
-motion similar to the scooping cut, carve away the outside of the feather,
-narrowing towards the slit and ending nearly parallel to it. This is the most
-difficult cut for me. I tend to cut too much and overshoot the slit.
+motion similar in shape to the scooping cut, carve away the outside of the
+feather, narrowing towards the slit and ending nearly parallel to it. This is
+the most difficult cut for me. I tend to cut too much and overshoot the slit.
 
 ![Jackson Shoulder Cuts Diagram[^8]](quill-diagram-shoulders.png
 "Carving the shoulders---rotate with the knife at the start of the first
@@ -191,12 +189,13 @@ wrong direction can easily cause the slit to widen or the tines to separate.
 
 The final step, finishing the nib, is much less difficult. We want to flatten
 the top and bottom of the writing edge by shaving away any jutting material. If
-the edge is too round so that only the two ends touch the paper, the edge is too
-broad. You should go back a step and cut more from the shoulders. This is where
-reshaping the barrel might have been useful. Once we have the desired width on
-a flush edge, rest the nib, inside down, on a solid surface. Finish the nib with
-a single chop at a slight angle away and down from the top of the quill. This
-gives a sharp and even writing edge for penning clean letters.
+the edge is too round so that only the two ends of the arc touch the paper, the
+edge is too broad. You should go back a step and cut more from the shoulders.
+This is where reshaping the barrel might have been useful. Once we have the
+desired width on a flush edge, rest the nib, inside down, on a solid surface.
+Finish the nib with a single chop at a slight angle away and down from the
+top of the quill. This gives a sharp and even writing edge for penning clean
+letters.
 
 Many adjustments to this process might be made for different writing conditions,
 scripts, and goals. For example, we can cut a wider pen, which requires some
@@ -204,12 +203,15 @@ lengthening of the slit and sometimes a second slit entirely.[^9] We can make
 the shoulders broader or narrower to adjust ink flow. You could even try to
 make the tines thin and flexible, and in that case, good luck. A different ink
 or paper may need a different pen, and no matter what conditions, you will need
-to constantly sharpen and recut the pen. There is no end to learning this skill
-once you start.
+to constantly sharpen and recut the pen.
+
+There is no end to learning this skill once you start.
+
+<br>
 
 ## Next Steps & Further Reading
 
-The impetus for this project was not to make a tool for broad edge letting
+The impetus for this project was not to make a tool for broad edge lettering
 in the expected sense, but rather to gain insight into the traditional way
 of writing roundhand. It is a common misconception that English Roundhand
 and similar scripts were written with a pointed pen. Most writers of modern
@@ -219,7 +221,7 @@ between the edge and the corner of the quill. As described in the *Young Clerk's
 Assistant*, first published ca. 1733:
 
 >Make the Nib of your Pen for the Round & Round-Text Hands the breadth of the
->full Stroke --- Make All Your Body-Strokes with the Full, & all Hair-Strokes
+>full Stroke---Make All Your Body-Strokes with the Full, & all Hair-Strokes
 >with the corner of Your Pen. [^10]
 
 Though my current results are nowhere near good enough for quality work, even my
@@ -236,7 +238,7 @@ to look out for in future posts.
 
 If you're curious to learn more about the process, including more on ink and
 paper choice, details on the curing and cutting process, and amazing diagrams,
-please read Donald Jackson's amazing article, "Preparation of Quills and Reeds."
+please read Donald Jackson's article, "Preparation of Quills and Reeds."
 This is easily the best source on the subject, and I've cited it frequently in
 writing this. Equally rich are the vast number of copybooks from the 16th to
 19th centuries, which sometimes contain diagrams or instructions. Happy studies!
