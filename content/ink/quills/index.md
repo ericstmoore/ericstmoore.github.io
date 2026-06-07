@@ -17,7 +17,7 @@ could also serve as a guide to getting started with this art.
 - [Part 2: Preparation](#part-2-preparation)
 - [Part 3: Clarification](#part-3-clarification)
 - [Part 4: Cutting](#part-4-cutting)
-- [Next Steps & Further Reading](#next-steps-further-reading)
+- [Next Steps & Further Reading](#next-steps--further-reading)
 <!--toc:end-->
 
 ## Part 1: Harass the Waterfowl
