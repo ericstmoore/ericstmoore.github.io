@@ -182,7 +182,7 @@ shoulder to find the matching point for the second {{< fn 8 >}}")
 If the forming of the slit was skipped previously, we could instead introduce
 it to the shaped quill now. With the end of the quill upside down on a hard
 surface, we can crack the feather by pressing down with our knife. Jackson and
-Brown call this the *guillotine* method.[^9] It reminds me of using a knife
+Brown call this the *guillotine* method. It reminds me of using a knife
 to break up peanut brittle. This could be easier than trying to carve the pen
 carefully around an existing slit, especially where too much pressure in the
 wrong direction can easily cause the slit to widen or the tines to separate.
