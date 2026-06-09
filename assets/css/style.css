@@ -8,6 +8,11 @@
   --link-active: #013429;
 }
 
+::selection {
+  background-color: #C8E8DE;
+  text-shadow: none;
+}
+
 html {
   font-size: 21px;
 }
