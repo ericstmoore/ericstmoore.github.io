@@ -1,7 +1,7 @@
 ---
 Title: Quills
 Subtitle: Sourcing, Curing & Cutting
-Date: 2026-05-29
+Date: 2026-06-06
 ---
 
 Many historical scripts and modern variants owe much of their form and technique
