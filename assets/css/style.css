@@ -227,13 +227,24 @@ blockquote {
 
 /* ========== code ========== */
 
-.chroma {
+p code{
+  font-size: .75rem;
+  padding: 0rem 0.15rem;
+  background-color: #e0e0e0;
+  outline: 1px solid #adadad
+}
+
+.chroma, pre {
   font-size: .65rem;
   margin: 1.5rem auto;
   padding: .75rem 1rem;
 
   border: 2px solid #4d4d4d;
   overflow-x: auto;
+
+  /* fallback for pre no chroma */
+  color:#b4b4b4;
+  background-color:#1e1e1e;
 }
 
 /* ========== math ========== */
