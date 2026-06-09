@@ -131,6 +131,12 @@ ol {
   padding-left: 2rem;
 }
 
+ol ul, ul ol,
+ul ul, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 li::marker {
   font-size: .85rem;
 }
