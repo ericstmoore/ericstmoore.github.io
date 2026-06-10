@@ -4,7 +4,7 @@ date: 2026-03-08
 ---
 
 For nearly a year, this website has been gathering dust, only growing by a
-single book review and a page [on apples](/thoughts/on-apples/). Of the latter,
+single book review and a page [on apples](/apples/reviews/). Of the latter,
 to be fair, I'm very proud, and I have plans to continue it as long as apples
 bless the Earth. But for all my talk of sharing, I've been far too quiet.
 
