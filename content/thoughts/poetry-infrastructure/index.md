@@ -1,6 +1,7 @@
 ---
 title: Poetry Infrastructure
 date: 2026-03-10 
+code: true
 ---
 
 A poet might ponder for hours about when to end a line, how much to indent,
