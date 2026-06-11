@@ -130,7 +130,9 @@ inserted into a line element with a CSS variable of the amount of indentation.
         <!-- remove indentation whitespace from string -->
         {{ $clean := replaceRE `^\s+` "" . }}
         <!-- line w/ indentation count var-->
-        <div class="line" style="--indent: {{ $indent }}ch">{{ $clean | safeHTML }}</div>
+        <div class="line" style="--indent: {{ $indent }}ch">
+          {{ $clean | safeHTML }}
+        </div>
       {{ end }}
     {{ end }}
   </div>
