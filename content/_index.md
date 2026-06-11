@@ -1,6 +1,6 @@
 ---
 title: "Eric S. Moore"
-subtitle: Shoes off please.
+subtitle: Shoes off, please.
 ---
 
 ## Pinned
