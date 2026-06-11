@@ -228,14 +228,14 @@ blockquote {
 /* ========== code ========== */
 
 p code{
-  font-size: .75rem;
+  font-size: .7rem;
   padding: 0rem 0.15rem;
-  background-color: #e0e0e0;
-  outline: 1px solid #adadad
+  background-color: #e3e3e3;
+  outline: 1px solid #d1d1d1
 }
 
 .chroma, pre {
-  font-size: .75rem;
+  font-size: .7rem;
   margin: 1.5rem auto;
   padding: .75rem 1rem;
 
