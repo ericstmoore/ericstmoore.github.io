@@ -131,8 +131,10 @@ ol {
   padding-left: 2rem;
 }
 
-ol ul, ul ol,
-ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -227,14 +229,15 @@ blockquote {
 
 /* ========== code ========== */
 
-p code{
+p code {
   font-size: .7rem;
   padding: 0rem 0.15rem;
   background-color: #e3e3e3;
   outline: 1px solid #d1d1d1
 }
 
-.chroma, pre {
+.chroma,
+pre {
   font-size: .7rem;
   margin: 1.5rem auto;
   padding: .75rem 1rem;
@@ -243,8 +246,8 @@ p code{
   overflow-x: auto;
 
   /* fallback for pre no chroma */
-  color:#b4b4b4;
-  background-color:#1e1e1e;
+  color: #b4b4b4;
+  background-color: #1e1e1e;
 }
 
 /* ========== math ========== */
