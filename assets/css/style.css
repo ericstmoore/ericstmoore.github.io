@@ -282,3 +282,24 @@ figcaption {
   font-style: italic;
   font-size: .9rem;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+  padding: 0;
+  margin: 1rem auto;
+}
+
+.gallery li {
+  display: block;
+}
+
+.gallery li a img {
+  width: 100%;
+  display: block;
+}
+
+.gallery a :hover {
+  outline: 1px solid var(--link-active);
+}

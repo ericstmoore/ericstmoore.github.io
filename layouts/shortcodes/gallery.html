@@ -1,0 +1,13 @@
+<!-- based on https://hugocodex.org/add-ons/image-gallery/ -->
+
+<ul class="gallery">
+{{ range .Page.Resources.Match "photos/*" }}
+  {{ $title := humanize (path.BaseName .Name) }}
+  <li>
+    <a href="{{ .Permalink }}" title="{{ $title }}" target="_blank">
+      <img src="{{ (.Fill "300x400 q50").Permalink }}" alt="{{ $title }}">
+      <!-- maybe add caption here -->
+    </a>
+    </li>  
+{{ end }}
+</ul>
