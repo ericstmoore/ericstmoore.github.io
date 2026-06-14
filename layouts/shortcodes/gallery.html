@@ -1,13 +1,20 @@
 <!-- based on https://hugocodex.org/add-ons/image-gallery/ -->
 
+{{ $subdir := .Get 0 }}
+{{ $dir := "photos/*"}}
+
+{{ if $subdir }}
+  {{ $dir = printf "photos/%s/*" $subdir }}
+{{ end }}
+
 <ul class="gallery">
-{{ range .Page.Resources.Match "photos/*" }}
+  {{ range .Page.Resources.Match $dir}}
   {{ $title := humanize (path.BaseName .Name) }}
   <li>
     <a href="{{ .Permalink }}" title="{{ $title }}" target="_blank">
-      <img src="{{ (.Fill "300x400 q50").Permalink }}" alt="{{ $title }}">
-      <!-- maybe add caption here -->
+      <img src="{{ (.Fill "400x400 q50").Permalink }}" alt="{{ $title }}">
     </a>
-    </li>  
-{{ end }}
+    <div class="gallery-caption">{{ $title }}</div>
+  </li>
+  {{ end }}
 </ul>

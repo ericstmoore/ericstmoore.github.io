@@ -285,14 +285,15 @@ figcaption {
 
 .gallery {
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25em;
   padding: 0;
   margin: 1rem auto;
 }
 
 .gallery li {
   display: block;
+  min-width: 0;
 }
 
 .gallery li a img {
@@ -300,6 +301,16 @@ figcaption {
   display: block;
 }
 
-.gallery a :hover {
+.gallery li a:hover {
   outline: 1px solid var(--link-active);
+}
+
+.gallery-caption {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-style: italic;
+  font-size: .9rem;
+
+  overflow: hidden;
+  white-space: nowrap;
 }
