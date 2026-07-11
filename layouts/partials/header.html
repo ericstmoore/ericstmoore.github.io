@@ -4,7 +4,7 @@
   <p>
     {{ with .Params.subtitle }}
       {{ . }}
-      {{ if and $.IsPage $.Date }}&nbsp;&ndash;{{ end }}
+      {{ if and $.IsPage $.Date }}&ndash;{{ end }}
     {{ end }}
 
     {{ if $.IsPage }}
