@@ -139,6 +139,8 @@ Draft: True
 - Originally Published 1967
 - Rating: 4/5
 
+I feel a little guilty for reading this before Dafoe's original. But oh well, at least when I do get around to it, I'll have a little extra enthusiasm.
+
 ### ***The Lord***, Soraya Antonius
 - Originally Published 1986
 - Rating: 2/5
@@ -146,6 +148,12 @@ Draft: True
 ### ***The Universal Baseball Association Inc.***, Robert Coover
 - Originally Published 1968
 - Rating: 4/5
+
+I have never played or followed baseball. I couldn't describe how the game is played. First opening this book and reading the title, I shelved it in my brain beside the rest of the NYRBs that just weren't *me*. Fortunately for me, this book isn't really about baseball. Not exactly.
+
+Enter Henry, dead-end accountant. He hates his boss, he's utterly alone, and at AGE, he's on the brink of losing his job because he can't stop playing his fantasy baseball game. And if you're like me, and you think bets and trades and ridiculous punishments, you'd be far from the truth. Written in XXXX, the idea of fantasy sports doesn't exist. What Henry has created is an entire alternate world: The Universal Baseball Association. For XX in-game seasons, Henry has simulated not just the game, but the league and the politics of baseball with dice, score cards, fictional records, characters, and more. Coover's writing brings the players to life, and we can only imagine how much deeper Henry is.
+
+
 
 ### ***Crazy Genie***, Inès Cagnati
 - Originally Published 1977
