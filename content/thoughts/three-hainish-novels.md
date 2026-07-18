@@ -1,7 +1,7 @@
 ---
 Title: Three Hainish Novels
 Subtitle: Ursula K. Le Guin, 1966/7
-Date: 0
+Date: 2026-07-18
 ---
 
 This omnibus contains the first three published novels of Ursula K. Le Guin. Before it, only her short stories and poetry had been published. The novels are the first entries in Le Guin's somewhat unofficial *Hainish Cycle*, a collection of often philosophical and anthropological science fiction stories set in a loosely connected universe.
