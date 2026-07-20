@@ -13,7 +13,7 @@ subtitle: Best Apples, Ranked Objectively
 
 5. **Ludacrisp:** 7/10
 
-6. **Snapdragon:** 6.75/10  
+6. **Snapdragon:** 6.75/10
 
 7. **Opal:** 6.75/10
 
