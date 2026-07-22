@@ -2,6 +2,7 @@
 Title: NYRB Classics
 Subtitle: Three Years of Book Club (WIP)
 Date: 2026-07-16
+Draft: True
 ---
 
 *---NYRB?*
