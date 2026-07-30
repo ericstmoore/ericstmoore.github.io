@@ -2,11 +2,17 @@
 
 {{ if $img }}
 <figure>
-  <img src="{{ $img.RelPermalink }}"
-       width="{{ $img.Width }}"
-       height="{{ $img.Height }}"
-       alt="{{ .Text }}"
-       loading="lazy">
+  {{ if eq $img.MediaType.SubType "svg" }}
+      <img src="{{ $img.RelPermalink }}"
+           alt="{{ .Text }}"
+           loading="lazy">
+  {{ else }}
+      <img src="{{ $img.RelPermalink }}"
+           width="{{ $img.Width }}"
+           height="{{ $img.Height }}"
+           alt="{{ .Text }}"
+           loading="lazy">
+  {{ end }}
        
   {{ with .Title }}
     <figcaption>{{ . | markdownify }}</figcaption>
