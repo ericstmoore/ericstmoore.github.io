@@ -32,14 +32,12 @@ body {
 
 p {
   text-align: justify;
-  hyphens: auto;
   margin: 1rem auto;
 }
 
 @media (max-width: 600px) {
   p {
     text-align: left;
-    hyphens: none;
   }
 }
 
