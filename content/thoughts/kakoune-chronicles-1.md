@@ -3,6 +3,7 @@ Title: "Kakoune Chronicles I"
 Subtitle: Windowing
 Date: 2026-07-31
 code: true
+draft: true
 ---
 
 I had two separate, nearly identical
