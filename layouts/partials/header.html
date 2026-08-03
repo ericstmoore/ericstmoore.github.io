@@ -1,7 +1,7 @@
 <header>
   <hr>
-  <h1>{{ .Title }}</h1>
-  <p>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="page-subtitle" >
     {{ with .Params.subtitle }}
       {{ . }}
       {{ if and $.IsPage $.Date }}&ndash;{{ end }}
