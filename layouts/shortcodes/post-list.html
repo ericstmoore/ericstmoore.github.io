@@ -12,7 +12,7 @@
 {{ if eq $arg "home" }}
   <ul>
     {{ range first 8 $dated.ByDate.Reverse }}
-      <li>{{ .Date.Format "2006.01.02" }} &ndash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>{{ .Date.Format "2006.01.02" }}:&nbsp; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 
@@ -30,7 +30,7 @@
     <ul>
       {{ range .Pages.ByDate.Reverse }}
         <li>
-          {{ .Date.Format "01.02" }} &ndash;
+          {{ .Date.Format "01.02" }}:&nbsp;
           <a href="{{ .RelPermalink }}">{{ .RelPermalink}}</a>
           <!-- {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }} -->
         </li>
@@ -45,7 +45,7 @@
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
     {{ range $dated.ByDate.Reverse }}
-      <li>{{ .Date.Format "2006.01.02" }} &ndash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>{{ .Date.Format "2006.01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 {{ end }}

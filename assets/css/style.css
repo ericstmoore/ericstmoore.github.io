@@ -129,16 +129,16 @@ ol {
   padding-left: 2rem;
 }
 
+ul {
+  list-style-type: "-  "
+}
+
 ol ul,
 ul ol,
 ul ul,
 ol ol {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-li::marker {
-  font-size: .85rem;
 }
 
 /* ========== text style ========== */
