@@ -1,7 +1,7 @@
 ---
 Title: "Kakoune Chronicles I"
 Subtitle: Windowing
-Date: 2026-07-31
+Date: 2026-08-03
 code: true
 draft: true
 ---
@@ -31,7 +31,7 @@ source "%val{config}/utils/tmux.kak"
 ```
 
 This is obviously a horrible solution. You could load them
-conditionally at the cost of a subshell, but this is unnecessary.
+conditionally at the cost of a subshell, but this is unnecessary,
 
 For one, Kakoune's system scripts already do this to auto-detect
 the windowing environment. The `new` command will work in tmux,
@@ -69,6 +69,7 @@ define-command hsplit -params .. -command-completion \
 It is worth noting that Kakoune does not auto-detect
 multiple/nested windowing environments. For example, if you use
 tmux in Sway, you do not have access to the `sway-terminal-`
-commands, but only those from tmux. However, you can manually
-load them with `require-module sway`. This opens up possibilities
-for some pretty complicated and unnecessary windowing plugins.
+commands automatically, but only those from tmux. However, you can
+manually load them with `require-module sway`. This opens up
+possibilities for some pretty complicated and unnecessary
+windowing plugins.
