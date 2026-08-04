@@ -1,6 +1,7 @@
 ---
 Title: On Kakoune
 Date: 2026-08-03
+Draft: True
 ---
 
 *Are you tired of lacking real skills and need a
