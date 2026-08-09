@@ -262,8 +262,8 @@ pre {
   overflow-x: auto;
 
   /* fallback for pre no chroma */
-  color: #b4b4b4;
-  background-color: #1e1e1e;
+  color: #1b1b1b;
+  background-color: #f0f0f0;
 }
 
 /* ========== math ========== */
