@@ -42,12 +42,15 @@ body {
 
   font: 1rem/1.5 'Adobe Garamond', Garamond, 'Times New Roman', Times, serif;
   font-feature-settings: "liga", "kern", "onum";
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /* ========== paragraph ========== */
 
 p {
   text-align: justify;
+  hyphens: auto;
   margin: 0 0 1rem 0;
 }
 
