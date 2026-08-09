@@ -11,6 +11,15 @@ calls "semantic class soup", was dismissed in the article as
 "a *compilation target* for some poetry {{< sc >}} dsl{{<
 /sc >}}."[^1]
 
+```html
+<div class="poem poem-wrap">
+  <div class="line" style="--indent: 0ch">Thou still unravish'd...</div>
+  <div class="line" style="--indent: 4ch">Thou foster-child of...</div>
+  <div class="line" style="--indent: 0ch">Sylvan historian, who...</div>
+  <div class="line" style="--indent: 4ch">A flowery tale...</div>
+</div>
+```
+
 I don't entirely agree with the criticism that authoring poetry
 by "encoding all the semantics" into classes is difficult---were
 we ever writing poetry directly in {{< sc >}}html{{< /sc >}}
