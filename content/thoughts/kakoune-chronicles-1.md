@@ -1,17 +1,14 @@
 ---
 Title: "Kakoune Chronicles I"
 Subtitle: Windowing
-Date: 2026-08-03
+Date: 2026-08-15
 code: true
-draft: true
 ---
 
-I had two separate, nearly identical
-[Kakoune](https://kakoune.org) scripts to open a new terminal in
-either Sway or tmux and connect to the
-session.[*](https://discuss.kakoune.com/t/split-kakoune-windows-with-tmux/325/5)
-In other words, for making splits and tabs, panes and windows, or
-whatever else you might call them.
+I had two separate, nearly identical [Kakoune][kak] scripts to
+open a new terminal in either Sway or tmux and connect to the
+session.[*][tmux] In other words, for making splits and tabs,
+panes and windows, or whatever else you might call them.
 
 ```kak
 define-command vsplit -params .. -command-completion \
@@ -21,8 +18,8 @@ define-command vsplit -params .. -command-completion \
 ```
 
 All I had to do was comment out the line that sources the one not
-being used in my `kakrc`. Both use the same names for the commands
-so my keybinds don't need to change.
+being used in [my `kakrc`][kakrc]. Both use the same names for the
+commands so my keybinds don't need to change.
 
 ```kak
 # using tmux
@@ -31,7 +28,7 @@ source "%val{config}/utils/tmux.kak"
 ```
 
 This is obviously a horrible solution. You could load them
-conditionally at the cost of a subshell, but this is unnecessary,
+conditionally at the cost of a subshell, but this is unnecessary.
 
 For one, Kakoune's system scripts already do this to auto-detect
 the windowing environment. The `new` command will work in tmux,
@@ -44,9 +41,9 @@ a new terminal window based on the detected windowing
 environment. A program with optional arguments must be passed,
 for example `sh`, to run in the window.
 
-Actually, `terminal` is more of a helper command to call the
-specific commands provided by Kakoune's windowing detection. When
-you execute `terminal`, you are actually just executing:
+Actually, `terminal` is more of an alias for the specific
+commands provided by Kakoune's windowing detection. When you
+execute `terminal`, you are actually just executing:
 
 ```kak
 "%opt{windowing_module}-terminal-%opt{windowing-placement}"
@@ -68,8 +65,12 @@ define-command hsplit -params .. -command-completion \
 
 It is worth noting that Kakoune does not auto-detect
 multiple/nested windowing environments. For example, if you use
-tmux in Sway, you do not have access to the `sway-terminal-`
+tmux in Sway, you do not have access to the `sway-terminal-*`
 commands automatically, but only those from tmux. However, you can
 manually load them with `require-module sway`. This opens up
 possibilities for some pretty complicated and unnecessary
 windowing plugins.
+
+[kak]: https://kakoune.org
+[tmux]: https://discuss.kakoune.com/t/split-kakoune-windows-with-tmux/325/5
+[kakrc]: https://github.com/ericsmoore/dotfiles/tree/main/dot-config/kak
