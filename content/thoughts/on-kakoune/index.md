@@ -1,6 +1,6 @@
 ---
 Title: On Kakoune
-Date: 2026-08-03
+Date: 2026-08-15
 Draft: True
 ---
 
@@ -11,15 +11,15 @@ an age-old war?*
 
 *Then which will it be? E--- or V---?*
 
-![Kakoune editing Itself](editing-kakoune.png "Kakoune editing
-Itself")
+![Kakoune editing itself](editing-kakoune.png "Kakoune editing
+itself")
 
 {{< break >}}
 
 For a little over a month, I've been using
 [Kakoune](https://kakoune.org), a modal code editor
 much like V---, for all my writing. I've used it to spit
-out a couple poems, a few thousand words of [interactive
+out a couple poems, a few thousand words of [hypertext
 fiction](https://github.com/ericsmoore/papillon), plenty of notes,
 a post plus and several drafts for this site, and a bit of code.
 
@@ -50,35 +50,54 @@ This is what V--- and E--- users have on us. Being the definitive
 end-game editors for decades has done a lot for those who insist
 on using them for prose.
 
-Fortunately, Kakoune has everything I
-need.
+Fortunately, Kakoune is capable of nearly everything you'd ever
+need, and a pleasure to extend when you must.
 
-### Object Mode
+### Objects and Selections
 
-Kakoune recognizes sentence and paragraph objects in the
-various object modes. For example, consider moving around a
-paragraph. `<a-a>p` selects around the current paragraph including
-the following blank line, `<a-i>p` selects only the paragraph
-text, `]p` selects to the end of the surrounding paragraph and
-`}p` extends the selection as well. We also have consistent
-results with `{p` and `[p`, which work on the beginning of
-the paragraph. If that isn't enough, we can select inside the
-paragraph block by prefixing any of those 4 commands with alt
-(equivalent to the difference between using `<a-i>p` instead of
-`<a-a>p`).
+The main sell of Kakoune is that normal mode emphasizes
+manipulation of your selections before applying an action.
+Navigating text and selecting text are one and the same.
 
-<!--### Wrapping
+Beyond the usual word-, character-, and line-based commands
+(`w`, `e`, `t< >`, `g< >`, &c.), Kakoune recognizes sentence
+and paragraph objects in its object modes. For example, `<a-a>p`
+selects around the current paragraph including the following
+blank line, `<a-i>p` selects only the paragraph text, `]p`
+selects to the end of the surrounding paragraph and `}p` extends
+the selection as well. We also have consistent results with `{p`
+and `[p`, which work on the beginning of the paragraph. If that
+isn't enough, we can select inside the paragraph block by
+prefixing any of those 4 commands with alt (equivalent to the
+difference between using `<a-i>p` instead of `<a-a>p`).
 
-There is heated debate on the proper way to wrap plain text when
-writing in markdown and similar formats. I am yet undecided.
-Unfortunately, and perhaps my only significant complaint with
-Kakoune, is that it does not properly support soft-wrapping text.
-I am saving this issue for another time where it might have room
-to breathe.
+This is not a feature unique to Kakoune, but when combined
+with the visual and incremental nature of the editor, gives
+something that writers are likely to appreciate. As you move
+around a sentence or a paragraph, as you pick out pieces from
+the whole, you're watching and manipulating that selection the
+entire time. Rearranging sentences is not a matter of deleting,
+undoing, changing your mind and deleting again, but rather
+a careful adjustment of your selection in a way that aligns
+with the thought process of a writer: "maybe keep that ending,
+oh cut that part out...but wait not that phrase, I like that
+one." Writers may want to mull over their edits a little
+more than `diw` in V--- allows.
 
-Fortunately, Kakoune does a decent job of automatically
-hard-wrapping text using external tools. It works well 95% of the
-time.-->
+### Wrapping
+
+There is heated debate on the proper way to wrap plain
+text---semantic line breaks, a fixed character limit, soft-wrap.
+I am yet undecided, but lean toward soft-wrapping for various
+reasons.  Unfortunately, and perhaps my only significant
+complaint with Kakoune, is that it does not properly support
+it. I have been using the build-in autowrap (hard) feature to
+approximate proper soft-wrapping, but it is not perfect.
+
+I am saving this issue for another time where it might have
+room to breathe.
+
+### Links and Wikis
 
 ## A Code Editor
 
