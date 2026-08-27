@@ -57,7 +57,8 @@
 
   <!--TODO: Page flag or specific section check
   for a "back" button as well as a "<<<"
-  when page belongs to a bigger project-->
+  when page belongs to a bigger project.
+  remember .Parent and .Section-->
   {{ block "nav" . }}
   <nav>
     {{ if or .IsHome (eq .Path "/about" )}}
