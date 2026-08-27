@@ -12,6 +12,9 @@
   <h2>{{ .Key }}</h2>
   <ul>
     {{ range .ByDate.Reverse }}
+    <!--{{ if eq .Params.Type "bold" }}
+      <li>{{ .Date.Format "01.02" }}:&nbsp;  <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></li></b>
+    {{ end }}-->
       <li>{{ .Date.Format "01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
