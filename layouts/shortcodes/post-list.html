@@ -1,54 +1,19 @@
 {{ $arg := .Get 0 }}
  
 {{ $pages := site.RegularPages }}
-{{ if not (or (eq $arg "home") (eq $arg "archive")) }}
+{{ if not ( eq $arg "home" )}}
   {{ $pages = .Page.RegularPages }}
 {{ end }}
 
 {{ $dated := where $pages "Date.IsZero" false }}
 {{ $dated = where $dated "Params.hidden" "!=" true }}
-{{ $living := where $pages "Date.IsZero" true }}
 
-{{ if eq $arg "home" }}
-  {{ range $dated.GroupByDate "2006" }}
-    <h2>{{ .Key }}</h2>
-    <ul>
-      {{ range .ByDate.Reverse }}
-        <li>{{ .Date.Format "01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-  {{ end }}
-
-{{ else if eq $arg "archive" }}
-  <h2>Living</h2>
+{{ range $dated.GroupByDate "2006" }}
+  <h2>{{ .Key }}</h2>
   <ul>
-    {{ range where $living "Params.title" "!=" "The Archive" }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .RelPermalink}}</a>
-      </li>
-    {{ end }}
-  </ul>
-  {{ range $dated.GroupByDate "2006" }}
-    <h2>{{ .Key }}</h2>
-    <ul>
-      {{ range .Pages.ByDate.Reverse }}
-        <li>
-          {{ .Date.Format "01.02" }}:&nbsp;
-          <a href="{{ .RelPermalink }}">{{ .RelPermalink}}</a>
-          <!-- {{ if ne .Section "" }}<small>( {{ .Section | title }} )</small>{{ end }} -->
-        </li>
-      {{ end }}
-    </ul>
-  {{ end }}
-
-{{ else }}
-  <ul>
-    {{ $living = where $living "Params.hidden" "!=" true }}
-    {{ range $living }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-    {{ range $dated.ByDate.Reverse }}
-      <li>{{ .Date.Format "2006.01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ range .ByDate.Reverse }}
+      <li>{{ .Date.Format "01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 {{ end }}
+</ul>

@@ -131,7 +131,7 @@ h3 {
   margin-top: 1rem;
 }
 
-.home ul {
+.home ul, .section ul {
   margin-top: .25rem;
 }
 
