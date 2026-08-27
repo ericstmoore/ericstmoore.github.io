@@ -10,11 +10,14 @@
 {{ $living := where $pages "Date.IsZero" true }}
 
 {{ if eq $arg "home" }}
-  <ul>
-    {{ range first 8 $dated.ByDate.Reverse }}
-      <li>{{ .Date.Format "2006.01.02" }}:&nbsp; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
+  {{ range $dated.GroupByDate "2006" }}
+    <h2>{{ .Key }}</h2>
+    <ul>
+      {{ range .ByDate.Reverse }}
+        <li>{{ .Date.Format "01.02" }}:&nbsp;  <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
 
 {{ else if eq $arg "archive" }}
   <h2>Living</h2>
