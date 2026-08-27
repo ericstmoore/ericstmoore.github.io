@@ -1,6 +1,8 @@
 ---
-title: Apple Rankings
+title: Apple Ranking
 subtitle: Best Apples, Ranked Objectively
+date: 2026-04-20
+hidden: true
 ---
 
 1. **Sweetango**: 9/10

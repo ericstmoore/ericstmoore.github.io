@@ -1,6 +1,7 @@
 ---
 title: On Apples
 subtitle: "A Cultivar Criticism"
+date: 2026-04-20
 ---
 
 **Lemonade**\
@@ -378,7 +379,7 @@ browning resistance. (2025.09.19)
 
 <br>
 
-[See Rankings](/apples/rankings/)
+[See Rankings](/thoughts/on-apples/ranked/)
 
 {{< break >}}
 
@@ -391,4 +392,4 @@ once-uneducated apple preferences. Never should the apple consumer
 consume apples blindly.  Genuine apple criticism is the only true
 path to a riper age.
 
-&mdash; Eric Moore, 2025.10.04
+--- Eric Moore, 2025.10.04
