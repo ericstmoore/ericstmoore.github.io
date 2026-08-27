@@ -60,9 +60,7 @@
     {{ $current := .Section }}
     <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page" {{ end }}>Home</a>
     <span class="nav-sep">&ndash;</span>
-    <a href="{{ "/ink/" | relURL }}" {{ if eq $current "ink" }}class="active-page" {{ end }}>Ink</a>
-    <span class="nav-sep">&ndash;</span>
-    <a href="{{ "/thoughts/" | relURL }}" {{ if eq $current "thoughts" }}class="active-page" {{ end }}>Thoughts</a>
+    <a href="{{ "/about/" | relURL }}" {{ if eq $current "about" }}class="active-page" {{ end }}>About</a>
   </nav>
   {{ end }}
 

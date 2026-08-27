@@ -1,6 +1,8 @@
 ---
 Title: Resources
 Subtitle: For Aspiring Penman
+Draft: True
+Hidden: True
 ---
 
 ### [{{< sc >}}Iampeth{{< /sc >}}](https://www.iampeth.com)
