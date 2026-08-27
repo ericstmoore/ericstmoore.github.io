@@ -3,14 +3,6 @@ title: "Eric S. Moore"
 subtitle: Shoes off, please.
 ---
 
-## Pinned
-
-- [On Apples](/apples/reviews/)
-
-## Latest
+- [About](/about/)
 
 {{< post-list home >}}
-
-## Other
-
-- [About](/about)
