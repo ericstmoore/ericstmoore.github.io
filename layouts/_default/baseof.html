@@ -55,12 +55,18 @@
   </div>
   {{ end }}
 
+  <!--TODO: Page flag or specific section check
+  for a "back" button as well as a "<<<"
+  when page belongs to a bigger project-->
   {{ block "nav" . }}
   <nav>
-    {{ $current := .Section }}
+    {{ if or .IsHome (eq .Path "/about" )}}
     <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active-page" {{ end }}>Home</a>
     <span class="nav-sep">&ndash;</span>
-    <a href="{{ "/about/" | relURL }}" {{ if eq $current "about" }}class="active-page" {{ end }}>About</a>
+    <a href="{{ "/about/" | relURL }}" {{ if eq .Path "/about" }}class="active-page" {{ end }}>About</a>
+    {{ else }}
+    <a href="{{ "/" | relURL }}"><<<</a>
+    {{ end }}
   </nav>
   {{ end }}
 
