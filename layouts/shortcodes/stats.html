@@ -1,0 +1,15 @@
+{{ $arg := .Get 0 }}
+
+{{ if eq $arg "words" }}
+  {{ $wc := 0 }}
+  {{ range site.RegularPages }}
+    <!--BUG: Calling WordCount on the current page completely freezes hugo.
+    Currently hardcoded to skip on title/about page-->
+    {{ if not (eq .Title "Eric S. Moore") }}
+      {{ $wc = add .WordCount $wc}}
+    {{ end }}
+  {{ end }}
+  {{ $wc }}
+{{ else if eq $arg "pages" }}
+  {{ len site.RegularPages }}
+{{ end }}
