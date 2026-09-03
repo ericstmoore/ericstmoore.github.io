@@ -1,8 +1,22 @@
 ---
 title: On Apples
 subtitle: "A Cultivar Criticism"
-date: 2026-04-20
+date: 2026-08-30
 ---
+
+**Soluna**\
+5.3/10
+
+- Soluna: dark crimson, sweet, and slightly disappointing. Best
+for preservation in an evil queen's fruit bowl. The earthy
+smell won't prepare you for how sweet this apple is. There's
+no tang, no bitterness, no complex flavors. It's sweet and only
+sweet. Unlike the Fuji, however, the sweetness is refreshing. It
+snaps at the bite but chews a bit softer. The skin is tough
+but flavorless. I've enjoyed two Solunas since the first, and
+they were closer to a Honeycrisp---less mushy and with a hint
+of acid to balance the flavor. Points gained, but lost again
+for inconsistency. (2026.08.30)
 
 **Lemonade**\
 4.8/10

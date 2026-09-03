@@ -1,8 +1,8 @@
 ---
 title: Apple Ranking
 subtitle: Best Apples, Ranked Objectively
-date: 2026-04-20
 hidden: true
+parent: "/thoughts/on-apples/"
 ---
 
 1. **Sweetango**: 9/10
@@ -37,36 +37,38 @@ hidden: true
 
 16. **McIntosh:** 5.5/10
 
-17. **Empire:** 5.25/10
+17. **Soluna** 5.3/10
 
-18. **Autumn Glory:** 5.25/10
+18. **Empire:** 5.25/10
 
-19. **Gala:** 5/10
+19. **Autumn Glory:** 5.25/10
 
-20. **Lucy Glo:** 5/10
+20. **Gala:** 5/10
 
-21. **Evercrisp:** 5/10
+21. **Lucy Glo:** 5/10
 
-22. **Lady Alice:** 4.8/10
+22. **Evercrisp:** 5/10
 
-23. **Lemonade:** 4.8/10
+23. **Lady Alice:** 4.8/10
 
-24. **Jazz:** 4.75/10
+24. **Lemonade:** 4.8/10
 
-25. **Kissabel Rouge:** 4.75/10
+25. **Jazz:** 4.75/10
 
-26. **Pazazz:** 4.75/10
+26. **Kissabel Rouge:** 4.75/10
 
-27. **Modi:** 4.6/10
+27. **Pazazz:** 4.75/10
 
-28. **Sweetie:** 4.5/10
+28. **Modi:** 4.6/10
 
-29. **Golden Delicious:** 4.5/10
+29. **Sweetie:** 4.5/10
 
-30. **Ambrosia:** 4/10
+30. **Golden Delicious:** 4.5/10
 
-31. **Red Delicious:** 3.5/10
+31. **Ambrosia:** 4/10
 
-32. **Sugarbee:** 3/10
+32. **Red Delicious:** 3.5/10
 
-33. **Fuji:** 2/10
+33. **Sugarbee:** 3/10
+
+34. **Fuji:** 2/10
