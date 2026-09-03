@@ -58,7 +58,10 @@
   <!--TODO: Page flag or specific section check
   for a "back" button as well as a "<<<"
   when page belongs to a bigger project.
-  remember .Parent and .Section-->
+  remember .Parent and .Section
+
+  Manual from a param for now, might not need more.
+  -->
   {{ block "nav" . }}
   <nav>
     {{ if or .IsHome (eq .Path "/about" )}}
@@ -66,7 +69,11 @@
     <span class="nav-sep">&ndash;</span>
     <a href="{{ "/about/" | relURL }}" {{ if eq .Path "/about" }}class="active-page" {{ end }}>About</a>
     {{ else }}
-    <a href="{{ "/" | relURL }}"><<<</a>
+    {{ if .Param "parent" }}
+    <a class = "back"; href="{{ .Params.parent | relURL }}"><<<</a>
+    {{ else }}
+    <a class = "back"; href="{{ "/" | relURL }}"><<<</a>
+    {{ end }}
     {{ end }}
   </nav>
   {{ end }}
